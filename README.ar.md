@@ -1,16 +1,15 @@
-<div align="left" dir="ltr">
-  <!-- Language Switcher Bar -->
-  <a href="README.md">
-    <img src="https://img.shields.io/badge/English-🇺🇸_Switch_to_English-0056D2?style=flat-square&logo=googletranslate&logoColor=white" alt="Switch to English" />
-  </a>
-  <a href="README.ar.md">
-    <img src="https://img.shields.io/badge/العربية-🇸🇦_الحالية-080C14?style=flat-square&logo=checkmarx&logoColor=38BDF8" alt="العربية الحالية" />
-  </a>
-</div>
-
-<br/>
-
 <div align="center">
+
+  <!-- ================= شريط التبديل بين اللغات فائق الوضوح ================= -->
+  <a href="README.ar.md">
+    <img src="assets/btn-lang-ar-active.svg" height="42" alt="العربية الحالية" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="README.md">
+    <img src="assets/btn-lang-en-cta.svg" height="42" alt="Switch to English" />
+  </a>
+
+  <br/><br/>
 
   <!-- ================= COURSERA-INSPIRED MASTER HERO ================= -->
   <a href="https://github.com/Alomary-Ali">
@@ -89,7 +88,10 @@
   <tr>
     <td width="50%" valign="top">
       <h3>01. تطبيق SOUQAK ومنصة Uni-Cart</h3>
-      <p><b>مشروع تجارة إلكترونية متكامل (Production E-Commerce)</b></p>
+      <p>
+        <img src="https://img.shields.io/badge/نوع_المشروع-تجارة_إلكترونية_إنتاجية-0056D2?style=flat-square" alt="نوع المشروع" />
+        <img src="https://img.shields.io/badge/الحالة-منصة_حية-059669?style=flat-square" alt="الحالة" />
+      </p>
       <p>حل تجاري شامل يربط تطبيق هاتف ذكي سريع الاستجابة مبني بـ Flutter بنظام إدارة ومبيعات متكامل عبر واجهة خلفية بـ Laravel (Uni-Cart).</p>
       <ul>
         <li><b>المعمارية:</b> ربط كامل بين تطبيق Flutter ونظام Uni-Cart عبر واجهات برمجية آمنة (RESTful APIs).</li>
@@ -101,13 +103,16 @@
       </p>
       <p>
         <a href="https://isnadcompany.alwaysdata.net/" target="_blank">
-          <b>➔ استعراض النسخة الحية للمنصة (Live Demo)</b>
+          <img src="https://img.shields.io/badge/معاينة_حية-➔_استعراض_المنصة-0056D2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="معاينة المنصة" />
         </a>
       </p>
     </td>
     <td width="50%" valign="top">
       <h3>02. منصة بنيتك (Benaytark)</h3>
-      <p><b>إدارة الأعمال وهندسة التقارير الديناميكية</b></p>
+      <p>
+        <img src="https://img.shields.io/badge/نوع_المشروع-منصة_مؤسسية_إدارية-0056D2?style=flat-square" alt="نوع المشروع" />
+        <img src="https://img.shields.io/badge/الحالة-نظام_تشغيلي_حي-059669?style=flat-square" alt="الحالة" />
+      </p>
       <p>منصة مؤسسية مخصصة لإدارة العمليات التشغيلية، وضبط الصلاحيات، وتوليد التقارير الرسمية وطباعتها ديناميكياً.</p>
       <ul>
         <li><b>المعمارية:</b> تطوير الواجهة الخلفية بـ Laravel مع كتابة كامل منطق الأعمال التشغيلي (Business Logic).</li>
@@ -119,7 +124,7 @@
       </p>
       <p>
         <a href="https://alomary.alwaysdata.net/" target="_blank">
-          <b>➔ الدخول إلى المنصة الحية (Live Platform)</b>
+          <img src="https://img.shields.io/badge/دخول_للمنصة-➔_استعراض_النظام-0056D2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="دخول للمنصة" />
         </a>
       </p>
     </td>
@@ -127,7 +132,10 @@
   <tr>
     <td width="50%" valign="top">
       <h3>03. مشروع رفيق الطالب</h3>
-      <p><b>نموذج أولي (MVP) ضمن هاكاثون "قبيلة"</b></p>
+      <p>
+        <img src="https://img.shields.io/badge/الفعالية-هاكاثون_قبيلة-0056D2?style=flat-square" alt="هاكاثون قبيلة" />
+        <img src="https://img.shields.io/badge/المخرج-نموذج_أولي_معتمد_(MVP)-059669?style=flat-square" alt="MVP" />
+      </p>
       <p>تطبيق سريع التطور والابتكار تم تطويره وإطلاقه تحت ضغط زمني وتنافسي مكثف خلال فعاليات هاكاثون قبيلة.</p>
       <ul>
         <li><b>الإنجاز السريع:</b> برمجة وإنجاز المتطلبات التقنية الأساسية للنظام وبناء نموذج عملي في فترة زمنية قياسية.</li>
@@ -138,13 +146,16 @@
       </p>
       <p>
         <a href="https://qabilah.com/hackathon/255665101472799432/projects/259708267620470784" target="_blank">
-          <b>➔ صفحة المشروع الرسمية في الهاكاثون</b>
+          <img src="https://img.shields.io/badge/الهاكاثون-➔_صفحة_المشروع_الرسمية-0056D2?style=for-the-badge" alt="صفحة المشروع" />
         </a>
       </p>
     </td>
     <td width="50%" valign="top">
       <h3>04. نظام المزارع الذكي</h3>
-      <p><b>نظام زراعي متكامل (مشروع التخرج - البكالوريوس)</b></p>
+      <p>
+        <img src="https://img.shields.io/badge/النوع-مشروع_التخرج_(بكالوريوس)-0056D2?style=flat-square" alt="مشروع التخرج" />
+        <img src="https://img.shields.io/badge/المجال-نظام_زراعي_ذكي-38BDF8?style=flat-square" alt="مجال المشروع" />
+      </p>
       <p>نظام شامل لإدارة العمليات الزراعية الذكية ومتابعتها، يشمل بنية خلفية وقواعد بيانات وتطبيق هاتف محمول.</p>
       <ul>
         <li><b>النظام الخلفي:</b> بناء الواجهة الخلفية وقواعد البيانات باستخدام Laravel و MySQL لتنظيم البيانات الزراعية.</li>
@@ -155,7 +166,7 @@
       </p>
       <p>
         <a href="https://github.com/Alomary-Ali" target="_blank">
-          <b>➔ استعراض مستودع المشروع على جيت هاب</b>
+          <img src="https://img.shields.io/badge/المستودع-➔_استعراض_الكود-0056D2?style=for-the-badge&logo=github&logoColor=white" alt="المستودع" />
         </a>
       </p>
     </td>

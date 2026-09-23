@@ -1,16 +1,15 @@
-<div align="right">
-  <!-- Language Switcher Bar -->
-  <a href="README.ar.md">
-    <img src="https://img.shields.io/badge/العربية-🇸🇦_تصفح_بالعربية-0056D2?style=flat-square&logo=googletranslate&logoColor=white" alt="تصفح بالعربية" />
-  </a>
-  <a href="README.md">
-    <img src="https://img.shields.io/badge/English-🇺🇸_Active-080C14?style=flat-square&logo=checkmarx&logoColor=38BDF8" alt="English Active" />
-  </a>
-</div>
-
-<br/>
-
 <div align="center">
+
+  <!-- ================= TOP LANGUAGE SWITCHER BAR ================= -->
+  <a href="README.md">
+    <img src="assets/btn-lang-en-active.svg" height="42" alt="English Active" />
+  </a>
+  &nbsp;&nbsp;
+  <a href="README.ar.md">
+    <img src="assets/btn-lang-ar-cta.svg" height="42" alt="تصفح بالعربية" />
+  </a>
+
+  <br/><br/>
 
   <!-- ================= COURSERA-INSPIRED MASTER HERO ================= -->
   <a href="https://github.com/Alomary-Ali">
@@ -79,7 +78,10 @@ The interactive blueprint below illustrates the full-lifecycle data and interfac
   <tr>
     <td width="50%" valign="top">
       <h3>01. SOUQAK Platform &amp; Uni-Cart</h3>
-      <p><b>Enterprise Multi-Vendor E-Commerce Solution</b></p>
+      <p>
+        <img src="https://img.shields.io/badge/Type-Production_E--Commerce-0056D2?style=flat-square" alt="E-Commerce" />
+        <img src="https://img.shields.io/badge/Status-Live_Platform-059669?style=flat-square" alt="Live" />
+      </p>
       <p>Full-scale commercial platform connecting a responsive Flutter mobile client with a Laravel Uni-Cart administration engine.</p>
       <ul>
         <li><b>Architecture:</b> Feature-First Flutter mobile architecture integrated via secured RESTful APIs with a multi-tenant Laravel backend.</li>
@@ -91,13 +93,16 @@ The interactive blueprint below illustrates the full-lifecycle data and interfac
       </p>
       <p>
         <a href="https://isnadcompany.alwaysdata.net/" target="_blank">
-          <b>➔ Explore Live Platform Demo</b>
+          <img src="https://img.shields.io/badge/Live_Demo-➔_Explore_Platform-0056D2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo" />
         </a>
       </p>
     </td>
     <td width="50%" valign="top">
       <h3>02. Bnaytic Platform (Benaytark)</h3>
-      <p><b>Business Logic &amp; Automated Reporting Engine</b></p>
+      <p>
+        <img src="https://img.shields.io/badge/Type-Enterprise_Platform-0056D2?style=flat-square" alt="Enterprise" />
+        <img src="https://img.shields.io/badge/Status-Live_Deployment-059669?style=flat-square" alt="Live" />
+      </p>
       <p>Enterprise administrative backend built to manage operational data, security authorization, and automated reporting templates.</p>
       <ul>
         <li><b>Architecture:</b> Domain-driven service layers in Laravel enforcing strict authorization and workflow tracking.</li>
@@ -109,7 +114,7 @@ The interactive blueprint below illustrates the full-lifecycle data and interfac
       </p>
       <p>
         <a href="https://alomary.alwaysdata.net/" target="_blank">
-          <b>➔ Access Live Platform Deployment</b>
+          <img src="https://img.shields.io/badge/Live_Access-➔_Launch_Platform-0056D2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Access" />
         </a>
       </p>
     </td>
@@ -117,7 +122,10 @@ The interactive blueprint below illustrates the full-lifecycle data and interfac
   <tr>
     <td width="50%" valign="top">
       <h3>03. Rafiq Al-Talib (رفيق الطالب)</h3>
-      <p><b>Qabilah Hackathon MVP Solution</b></p>
+      <p>
+        <img src="https://img.shields.io/badge/Event-Qabilah_Hackathon-0056D2?style=flat-square" alt="Hackathon" />
+        <img src="https://img.shields.io/badge/Outcome-Verified_MVP-059669?style=flat-square" alt="MVP" />
+      </p>
       <p>High-velocity technical MVP engineered under intensive competitive time constraints during the Qabilah Hackathon.</p>
       <ul>
         <li><b>Rapid Delivery:</b> Formulated core architectural scope and implemented foundational user journeys under tight deadlines.</li>
@@ -128,13 +136,16 @@ The interactive blueprint below illustrates the full-lifecycle data and interfac
       </p>
       <p>
         <a href="https://qabilah.com/hackathon/255665101472799432/projects/259708267620470784" target="_blank">
-          <b>➔ View Official Hackathon Submission</b>
+          <img src="https://img.shields.io/badge/Hackathon-➔_View_Submission-0056D2?style=for-the-badge" alt="Submission" />
         </a>
       </p>
     </td>
     <td width="50%" valign="top">
       <h3>04. Smart Farm System (المزارع الذكي)</h3>
-      <p><b>Comprehensive Smart Agriculture System (B.S. Capstone)</b></p>
+      <p>
+        <img src="https://img.shields.io/badge/Type-Graduation_Capstone-0056D2?style=flat-square" alt="Capstone" />
+        <img src="https://img.shields.io/badge/Scope-Full_Stack_IoT-38BDF8?style=flat-square" alt="Full Stack" />
+      </p>
       <p>Integrated agricultural management platform combining relational data tracking, backend services, and a mobile client.</p>
       <ul>
         <li><b>Full-Stack Scope:</b> Built backend services and relational MySQL schemas managing farm records and metrics.</li>
@@ -145,7 +156,7 @@ The interactive blueprint below illustrates the full-lifecycle data and interfac
       </p>
       <p>
         <a href="https://github.com/Alomary-Ali" target="_blank">
-          <b>➔ Review Project Repository</b>
+          <img src="https://img.shields.io/badge/Repository-➔_Explore_Code-0056D2?style=for-the-badge&logo=github&logoColor=white" alt="Repository" />
         </a>
       </p>
     </td>
