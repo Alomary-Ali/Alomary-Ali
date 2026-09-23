@@ -18,18 +18,18 @@
 
   <br/><br/>
 
-  <!-- شريط روابط التواصل السريعة -->
+  <!-- شريط روابط التواصل السريعة الرسمية (بدون تقطيع الحروف) -->
   <a href="mailto:ali.q.alomary@gmail.com">
-    <img src="https://img.shields.io/badge/إيميل-ali.q.alomary%40gmail.com-0056D2?style=for-the-badge&logo=gmail&logoColor=white" alt="البريد الإلكتروني" />
+    <img src="https://img.shields.io/badge/Email-ali.q.alomary%40gmail.com-0056D2?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://linkedin.com/in/ali-al-omary" target="_blank">
-    <img src="https://img.shields.io/badge/لينكد_إن-ali--al--omary-0056D2?style=for-the-badge&logo=linkedin&logoColor=white" alt="حساب لينكد إن" />
+    <img src="https://img.shields.io/badge/LinkedIn-ali--al--omary-0056D2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="https://alomary-ali.site.je" target="_blank">
-    <img src="https://img.shields.io/badge/الموقع_الشخصي-alomary--ali.site.je-0056D2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="الموقع الشخصي" />
+    <img src="https://img.shields.io/badge/Portfolio-alomary--ali.site.je-0056D2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://github.com/Alomary-Ali">
-    <img src="https://img.shields.io/badge/جيت_هاب-Alomary--Ali-0056D2?style=for-the-badge&logo=github&logoColor=white" alt="حساب جيت هاب" />
+    <img src="https://img.shields.io/badge/GitHub-Alomary--Ali-0056D2?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 
 </div>
@@ -89,8 +89,8 @@
     <td width="50%" valign="top">
       <h3>01. تطبيق SOUQAK ومنصة Uni-Cart</h3>
       <p>
-        <img src="https://img.shields.io/badge/نوع_المشروع-تجارة_إلكترونية_إنتاجية-0056D2?style=flat-square" alt="نوع المشروع" />
-        <img src="https://img.shields.io/badge/الحالة-منصة_حية-059669?style=flat-square" alt="الحالة" />
+        <img src="https://img.shields.io/badge/Production-E--Commerce-0056D2?style=flat-square" alt="E-Commerce" />
+        <img src="https://img.shields.io/badge/Status-Live_Platform-059669?style=flat-square" alt="Live Platform" />
       </p>
       <p>حل تجاري شامل يربط تطبيق هاتف ذكي سريع الاستجابة مبني بـ Flutter بنظام إدارة ومبيعات متكامل عبر واجهة خلفية بـ Laravel (Uni-Cart).</p>
       <ul>
@@ -103,15 +103,19 @@
       </p>
       <p>
         <a href="https://isnadcompany.alwaysdata.net/" target="_blank">
-          <img src="https://img.shields.io/badge/معاينة_حية-➔_استعراض_المنصة-0056D2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="معاينة المنصة" />
+          <img src="https://img.shields.io/badge/Live_Demo-➔_Explore-0056D2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live Demo" />
+        </a>
+        <br/>
+        <a href="https://isnadcompany.alwaysdata.net/" target="_blank">
+          <b>🌐 استعراض المنصة الحية ➔</b>
         </a>
       </p>
     </td>
     <td width="50%" valign="top">
       <h3>02. منصة بنيتك (Benaytark)</h3>
       <p>
-        <img src="https://img.shields.io/badge/نوع_المشروع-منصة_مؤسسية_إدارية-0056D2?style=flat-square" alt="نوع المشروع" />
-        <img src="https://img.shields.io/badge/الحالة-نظام_تشغيلي_حي-059669?style=flat-square" alt="الحالة" />
+        <img src="https://img.shields.io/badge/Enterprise-Platform-0056D2?style=flat-square" alt="Enterprise Platform" />
+        <img src="https://img.shields.io/badge/Status-Active_Backend-059669?style=flat-square" alt="Active Backend" />
       </p>
       <p>منصة مؤسسية مخصصة لإدارة العمليات التشغيلية، وضبط الصلاحيات، وتوليد التقارير الرسمية وطباعتها ديناميكياً.</p>
       <ul>
@@ -124,7 +128,11 @@
       </p>
       <p>
         <a href="https://alomary.alwaysdata.net/" target="_blank">
-          <img src="https://img.shields.io/badge/دخول_للمنصة-➔_استعراض_النظام-0056D2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="دخول للمنصة" />
+          <img src="https://img.shields.io/badge/Live_System-➔_Launch-0056D2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Live System" />
+        </a>
+        <br/>
+        <a href="https://alomary.alwaysdata.net/" target="_blank">
+          <b>🏢 الدخول إلى النظام الحي ➔</b>
         </a>
       </p>
     </td>
@@ -133,8 +141,8 @@
     <td width="50%" valign="top">
       <h3>03. مشروع رفيق الطالب</h3>
       <p>
-        <img src="https://img.shields.io/badge/الفعالية-هاكاثون_قبيلة-0056D2?style=flat-square" alt="هاكاثون قبيلة" />
-        <img src="https://img.shields.io/badge/المخرج-نموذج_أولي_معتمد_(MVP)-059669?style=flat-square" alt="MVP" />
+        <img src="https://img.shields.io/badge/Event-Qabilah_Hackathon-0056D2?style=flat-square" alt="Qabilah Hackathon" />
+        <img src="https://img.shields.io/badge/Outcome-Verified_MVP-059669?style=flat-square" alt="Verified MVP" />
       </p>
       <p>تطبيق سريع التطور والابتكار تم تطويره وإطلاقه تحت ضغط زمني وتنافسي مكثف خلال فعاليات هاكاثون قبيلة.</p>
       <ul>
@@ -146,15 +154,19 @@
       </p>
       <p>
         <a href="https://qabilah.com/hackathon/255665101472799432/projects/259708267620470784" target="_blank">
-          <img src="https://img.shields.io/badge/الهاكاثون-➔_صفحة_المشروع_الرسمية-0056D2?style=for-the-badge" alt="صفحة المشروع" />
+          <img src="https://img.shields.io/badge/Hackathon-➔_View_Project-0056D2?style=for-the-badge" alt="View Project" />
+        </a>
+        <br/>
+        <a href="https://qabilah.com/hackathon/255665101472799432/projects/259708267620470784" target="_blank">
+          <b>🏆 صفحة المشروع في هاكاثون قبيلة ➔</b>
         </a>
       </p>
     </td>
     <td width="50%" valign="top">
       <h3>04. نظام المزارع الذكي</h3>
       <p>
-        <img src="https://img.shields.io/badge/النوع-مشروع_التخرج_(بكالوريوس)-0056D2?style=flat-square" alt="مشروع التخرج" />
-        <img src="https://img.shields.io/badge/المجال-نظام_زراعي_ذكي-38BDF8?style=flat-square" alt="مجال المشروع" />
+        <img src="https://img.shields.io/badge/Capstone-Graduation_Project-0056D2?style=flat-square" alt="Graduation Project" />
+        <img src="https://img.shields.io/badge/Scope-Smart_Agriculture-38BDF8?style=flat-square" alt="Smart Agriculture" />
       </p>
       <p>نظام شامل لإدارة العمليات الزراعية الذكية ومتابعتها، يشمل بنية خلفية وقواعد بيانات وتطبيق هاتف محمول.</p>
       <ul>
@@ -166,7 +178,11 @@
       </p>
       <p>
         <a href="https://github.com/Alomary-Ali" target="_blank">
-          <img src="https://img.shields.io/badge/المستودع-➔_استعراض_الكود-0056D2?style=for-the-badge&logo=github&logoColor=white" alt="المستودع" />
+          <img src="https://img.shields.io/badge/Repository-➔_Source_Code-0056D2?style=for-the-badge&logo=github&logoColor=white" alt="Source Code" />
+        </a>
+        <br/>
+        <a href="https://github.com/Alomary-Ali" target="_blank">
+          <b>📦 استعراض مستودع المشروع ➔</b>
         </a>
       </p>
     </td>
@@ -184,7 +200,7 @@
 * **تحليل المتطلبات وقواعد البيانات**: تحليل متطلبات المشاريع وتحويلها إلى قواعد بيانات مهيكلة ومخططات برمجية واضحة (MySQL Schemas).
 * **بناء الواجهات الخلفية (APIs)**: برمجة وبناء واجهات برمجية آمنة (RESTful APIs) باستخدام إطار عمل Laravel.
 * **تطبيقات الهواتف الذكية**: تطوير تطبيقات هواتف ذكية (iOS &amp; Android) سريعة الاستجابة باستخدام Flutter مع إدارة الحالة بكفاءة.
-* **الالتزام بالمعمارية**: الاعتماد على أنماط Clean Architecture و Feature-First لضمان استدامة الكود وسهولة صيانته وتطويره.
+* **الالتزام بالمعمارية**: الاعتماد على أنماط Clean Architecture و Feature-First لضمان استدامة الكود وسهولة صيانة وتطويره.
 * **تنفيذ التصاميم بدقة**: تحويل تصاميم Figma إلى واجهات تفاعلية بدقة عالية (Pixel-Perfect).
 
 ---
