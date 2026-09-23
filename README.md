@@ -1,3 +1,15 @@
+<div align="right">
+  <!-- Language Switcher Bar -->
+  <a href="README.ar.md">
+    <img src="https://img.shields.io/badge/العربية-🇸🇦_تصفح_بالعربية-0056D2?style=flat-square&logo=googletranslate&logoColor=white" alt="تصفح بالعربية" />
+  </a>
+  <a href="README.md">
+    <img src="https://img.shields.io/badge/English-🇺🇸_Active-080C14?style=flat-square&logo=checkmarx&logoColor=38BDF8" alt="English Active" />
+  </a>
+</div>
+
+<br/>
+
 <div align="center">
 
   <!-- ================= COURSERA-INSPIRED MASTER HERO ================= -->
