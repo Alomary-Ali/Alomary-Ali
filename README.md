@@ -178,7 +178,7 @@ The interactive blueprint below illustrates the full-lifecycle data and interfac
   <table border="0">
     <tr>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats-fast.vercel.app/api?username=Alomary-Ali&show_icons=true&bg_color=080C14&title_color=38BDF8&text_color=E2E8F0&icon_color=0056D2&border_color=0056D2&hide_border=false" alt="Ali's GitHub Performance" width="100%" />
+        <img src="https://github-readme-stats-fast.vercel.app/api?username=Alomary-Ali&show_icons=true&include_all_commits=true&count_private=true&bg_color=080C14&title_color=38BDF8&text_color=E2E8F0&icon_color=0056D2&border_color=0056D2&hide_border=false" alt="Ali's GitHub Performance" width="100%" />
       </td>
       <td align="center" width="50%">
         <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Alomary-Ali&layout=compact&bg_color=080C14&title_color=38BDF8&text_color=E2E8F0&border_color=0056D2&hide_border=false" alt="Top Languages Breakdown" width="100%" />
