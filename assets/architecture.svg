@@ -1,147 +1,159 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 180" width="100%" height="180" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 210" width="100%" height="210" fill="none">
   <defs>
     <!-- Background Gradient -->
-    <linearGradient id="archBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0B0F17"/>
-      <stop offset="100%" stop-color="#0D131F"/>
+    <linearGradient id="pipeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="50%" stop-color="#070C1A"/>
+      <stop offset="100%" stop-color="#02050D"/>
     </linearGradient>
 
-    <!-- Node Gradient Overlays -->
-    <linearGradient id="nodeBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.5"/>
-      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#F43F5E" stop-opacity="0.5"/>
+    <!-- Node Gradients -->
+    <linearGradient id="pipeBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00F2FE" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#818CF8" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#FF0080" stop-opacity="0.4"/>
     </linearGradient>
 
-    <linearGradient id="flowLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8"/>
-      <stop offset="50%" stop-color="#818CF8"/>
-      <stop offset="100%" stop-color="#F43F5E"/>
+    <linearGradient id="cardSurface" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0D1527" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#060B14" stop-opacity="0.95"/>
     </linearGradient>
 
-    <!-- Tech Grid Pattern -->
-    <pattern id="archGrid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="10" cy="10" r="0.7" fill="#334155" fill-opacity="0.35"/>
+    <!-- Dot Pattern -->
+    <pattern id="pipeGrid" width="16" height="16" patternUnits="userSpaceOnUse">
+      <circle cx="8" cy="8" r="0.6" fill="#334155" fill-opacity="0.35"/>
     </pattern>
   </defs>
 
   <style>
-    .font-sans {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    }
-    .font-mono {
-      font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Menlo, Monaco, Consolas, monospace;
-    }
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
 
-    /* Animated connector flow */
-    @keyframes dataPulse {
-      0% { stroke-dashoffset: 48; }
+    /* Animated data packet traveling across the pipeline */
+    @keyframes dataDash {
+      0% { stroke-dashoffset: 40; }
       100% { stroke-dashoffset: 0; }
     }
-    .flow-path {
-      stroke-dasharray: 6 6;
-      animation: dataPulse 2.5s linear infinite;
+    .pipe-line {
+      stroke-dasharray: 5 5;
+      animation: dataDash 2s linear infinite;
     }
 
-    /* Subtle glow pulse on nodes */
-    @keyframes nodeHover {
-      0%, 100% { stroke-opacity: 0.3; }
-      50% { stroke-opacity: 0.7; }
+    @keyframes pulseNode {
+      0%, 100% { stroke-opacity: 0.35; }
+      50% { stroke-opacity: 0.85; }
     }
-    .node-rect {
-      animation: nodeHover 4s infinite ease-in-out;
-    }
+    .node-glow { animation: pulseNode 3.5s infinite ease-in-out; }
   </style>
 
-  <!-- Card Frame -->
-  <rect x="1" y="1" width="918" height="178" rx="14" fill="url(#archBg)" stroke="#1E293B" stroke-width="1.2"/>
-  <rect x="2" y="2" width="916" height="176" rx="13" fill="url(#archGrid)"/>
+  <!-- Base Canvas -->
+  <rect x="1.5" y="1.5" width="957" height="207" rx="18" fill="url(#pipeBg)" stroke="#1E293B" stroke-width="1.2"/>
+  <rect x="3" y="3" width="954" height="204" rx="16" fill="url(#pipeGrid)"/>
 
-  <!-- Header Bar -->
-  <g transform="translate(32, 24)">
-    <circle cx="0" cy="6" r="3.5" fill="#38BDF8"/>
-    <text x="12" y="10" fill="#94A3B8" font-size="11" font-weight="700" class="font-mono" letter-spacing="1.2">SYSTEM PIPELINE &amp; ARCHITECTURAL FLOW</text>
-    <text x="856" y="10" text-anchor="end" fill="#64748B" font-size="10" font-weight="500" class="font-mono">FIGMA ➔ FLUTTER ➔ REST API ➔ LARAVEL ➔ MYSQL</text>
+  <!-- Top System Header -->
+  <g transform="translate(32, 22)">
+    <circle cx="4" cy="5" r="3" fill="#00F2FE"/>
+    <text x="16" y="9" fill="#F8FAFC" font-size="11" font-weight="700" class="font-mono" letter-spacing="1.5">END-TO-END SYSTEM PIPELINE &amp; ARCHITECTURAL INTEGRITY</text>
+    <text x="896" y="9" text-anchor="end" fill="#64748B" font-size="10" font-weight="600" class="font-mono">FIGMA ➔ FLUTTER ➔ REST API ➔ LARAVEL ➔ MYSQL</text>
   </g>
 
-  <!-- Connecting Animated Flow Lines -->
-  <!-- Line 1: Node 1 to Node 2 -->
-  <line class="flow-path" x1="184" y1="102" x2="216" y2="102" stroke="#38BDF8" stroke-width="2" stroke-linecap="round"/>
-  <!-- Line 2: Node 2 to Node 3 -->
-  <line class="flow-path" x1="368" y1="102" x2="400" y2="102" stroke="#60A5FA" stroke-width="2" stroke-linecap="round"/>
-  <!-- Line 3: Node 3 to Node 4 -->
-  <line class="flow-path" x1="552" y1="102" x2="584" y2="102" stroke="#818CF8" stroke-width="2" stroke-linecap="round"/>
-  <!-- Line 4: Node 4 to Node 5 -->
-  <line class="flow-path" x1="736" y1="102" x2="768" y2="102" stroke="#F43F5E" stroke-width="2" stroke-linecap="round"/>
+  <!-- Connecting Animated Flow Traces -->
+  <!-- 1 -> 2 -->
+  <line class="pipe-line" x1="194" y1="116" x2="222" y2="116" stroke="#C084FC" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- 2 -> 3 -->
+  <line class="pipe-line" x1="384" y1="116" x2="412" y2="116" stroke="#38BDF8" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- 3 -> 4 -->
+  <line class="pipe-line" x1="574" y1="116" x2="602" y2="116" stroke="#2DD4BF" stroke-width="2.2" stroke-linecap="round"/>
+  <!-- 4 -> 5 -->
+  <line class="pipe-line" x1="764" y1="116" x2="792" y2="116" stroke="#FB7185" stroke-width="2.2" stroke-linecap="round"/>
 
-  <!-- NODE 1: UI/UX & Design -->
-  <g transform="translate(32, 54)">
-    <rect class="node-rect" x="0" y="0" width="152" height="96" rx="10" fill="#0F172A" stroke="#A855F7" stroke-width="1.2"/>
-    <rect x="12" y="12" width="28" height="28" rx="6" fill="#1E1B4B" stroke="#A855F7" stroke-opacity="0.4" stroke-width="1"/>
-    <!-- Pen / Design Icon -->
-    <path d="M21 28L26 23L31 28L26 33Z" fill="#C084FC"/>
-    <text x="48" y="24" fill="#E2E8F0" font-size="12" font-weight="700" class="font-sans">UI/UX Design</text>
-    <text x="48" y="36" fill="#A855F7" font-size="10" font-weight="600" class="font-mono">Figma Spec</text>
-    <line x1="12" y1="48" x2="140" y2="48" stroke="#1E293B" stroke-width="1"/>
-    <text x="12" y="66" fill="#94A3B8" font-size="10.5" font-weight="500" class="font-sans">• Design Systems</text>
-    <text x="12" y="82" fill="#94A3B8" font-size="10.5" font-weight="500" class="font-sans">• Pixel-Perfect Specs</text>
+  <!-- ================= STAGE 01: DESIGN ================= -->
+  <g transform="translate(32, 48)">
+    <rect class="node-glow" x="0" y="0" width="162" height="136" rx="12" fill="url(#cardSurface)" stroke="#C084FC" stroke-width="1.2"/>
+    <g transform="translate(14, 14)">
+      <!-- Stage Badge -->
+      <rect x="0" y="0" width="24" height="18" rx="4" fill="#3B0764" stroke="#C084FC" stroke-width="0.8"/>
+      <text x="12" y="13" text-anchor="middle" fill="#E9D5FF" font-size="10" font-weight="700" class="font-mono">01</text>
+      <text x="32" y="14" fill="#E9D5FF" font-size="11" font-weight="700" class="font-mono">UI/UX SPECS</text>
+      <!-- Title -->
+      <text x="0" y="38" fill="#FFFFFF" font-size="13" font-weight="700" class="font-sans">Figma System</text>
+      <line x1="0" y1="48" x2="134" y2="48" stroke="#1E293B" stroke-width="1"/>
+      <!-- Details -->
+      <text x="0" y="66" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Pixel-Perfect Specs</text>
+      <text x="0" y="82" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Design Tokens</text>
+      <text x="0" y="98" fill="#A855F7" font-size="9.5" font-weight="600" class="font-mono">USER EXPERIENCE</text>
+    </g>
   </g>
 
-  <!-- NODE 2: Client Mobile Application -->
-  <g transform="translate(216, 54)">
-    <rect class="node-rect" x="0" y="0" width="152" height="96" rx="10" fill="#0F172A" stroke="#38BDF8" stroke-width="1.2"/>
-    <rect x="12" y="12" width="28" height="28" rx="6" fill="#082F49" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1"/>
-    <!-- Mobile Icon -->
-    <rect x="20" y="18" width="12" height="16" rx="2" stroke="#38BDF8" stroke-width="1.5"/>
-    <circle cx="26" cy="31" r="1" fill="#38BDF8"/>
-    <text x="48" y="24" fill="#E2E8F0" font-size="12" font-weight="700" class="font-sans">Mobile App</text>
-    <text x="48" y="36" fill="#38BDF8" font-size="10" font-weight="600" class="font-mono">Flutter / Dart</text>
-    <line x1="12" y1="48" x2="140" y2="48" stroke="#1E293B" stroke-width="1"/>
-    <text x="12" y="66" fill="#94A3B8" font-size="10.5" font-weight="500" class="font-sans">• Clean Architecture</text>
-    <text x="12" y="82" fill="#94A3B8" font-size="10.5" font-weight="500" class="font-sans">• Feature-First Pattern</text>
+  <!-- ================= STAGE 02: CLIENT ================= -->
+  <g transform="translate(222, 48)">
+    <rect class="node-glow" x="0" y="0" width="162" height="136" rx="12" fill="url(#cardSurface)" stroke="#00F2FE" stroke-width="1.2"/>
+    <g transform="translate(14, 14)">
+      <!-- Stage Badge -->
+      <rect x="0" y="0" width="24" height="18" rx="4" fill="#082F49" stroke="#00F2FE" stroke-width="0.8"/>
+      <text x="12" y="13" text-anchor="middle" fill="#BAE6FD" font-size="10" font-weight="700" class="font-mono">02</text>
+      <text x="32" y="14" fill="#BAE6FD" font-size="11" font-weight="700" class="font-mono">CLIENT APP</text>
+      <!-- Title -->
+      <text x="0" y="38" fill="#FFFFFF" font-size="13" font-weight="700" class="font-sans">Flutter / Dart</text>
+      <line x1="0" y1="48" x2="134" y2="48" stroke="#1E293B" stroke-width="1"/>
+      <!-- Details -->
+      <text x="0" y="66" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Clean Architecture</text>
+      <text x="0" y="82" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Feature-First Pattern</text>
+      <text x="0" y="98" fill="#38BDF8" font-size="9.5" font-weight="600" class="font-mono">IOS &amp; ANDROID</text>
+    </g>
   </g>
 
-  <!-- NODE 3: RESTful API Layer -->
-  <g transform="translate(400, 54)">
-    <rect class="node-rect" x="0" y="0" width="152" height="96" rx="10" fill="#0F172A" stroke="#06B6D4" stroke-width="1.2"/>
-    <rect x="12" y="12" width="28" height="28" rx="6" fill="#164E63" stroke="#06B6D4" stroke-opacity="0.4" stroke-width="1"/>
-    <!-- Exchange / API arrows Icon -->
-    <path d="M18 24H32M32 24L28 20M32 24L28 28" stroke="#22D3EE" stroke-width="1.5" stroke-linecap="round"/>
-    <path d="M34 30H20M20 30L24 26M20 30L24 34" stroke="#22D3EE" stroke-width="1.5" stroke-linecap="round"/>
-    <text x="48" y="24" fill="#E2E8F0" font-size="12" font-weight="700" class="font-sans">API Gateway</text>
-    <text x="48" y="36" fill="#06B6D4" font-size="10" font-weight="600" class="font-mono">RESTful Endpoints</text>
-    <line x1="12" y1="48" x2="140" y2="48" stroke="#1E293B" stroke-width="1"/>
-    <text x="12" y="66" fill="#94A3B8" font-size="10.5" font-weight="500" class="font-sans">• JSON Contracts</text>
-    <text x="12" y="82" fill="#94A3B8" font-size="10.5" font-weight="500" class="font-sans">• Postman Verified</text>
+  <!-- ================= STAGE 03: GATEWAY ================= -->
+  <g transform="translate(412, 48)">
+    <rect class="node-glow" x="0" y="0" width="162" height="136" rx="12" fill="url(#cardSurface)" stroke="#2DD4BF" stroke-width="1.2"/>
+    <g transform="translate(14, 14)">
+      <!-- Stage Badge -->
+      <rect x="0" y="0" width="24" height="18" rx="4" fill="#042F2E" stroke="#2DD4BF" stroke-width="0.8"/>
+      <text x="12" y="13" text-anchor="middle" fill="#99F6E4" font-size="10" font-weight="700" class="font-mono">03</text>
+      <text x="32" y="14" fill="#99F6E4" font-size="11" font-weight="700" class="font-mono">INTEGRATION</text>
+      <!-- Title -->
+      <text x="0" y="38" fill="#FFFFFF" font-size="13" font-weight="700" class="font-sans">RESTful APIs</text>
+      <line x1="0" y1="48" x2="134" y2="48" stroke="#1E293B" stroke-width="1"/>
+      <!-- Details -->
+      <text x="0" y="66" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• JSON Contracts</text>
+      <text x="0" y="82" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Postman Verified</text>
+      <text x="0" y="98" fill="#2DD4BF" font-size="9.5" font-weight="600" class="font-mono">SECURE TRANSIT</text>
+    </g>
   </g>
 
-  <!-- NODE 4: Backend Logic & Security -->
-  <g transform="translate(584, 54)">
-    <rect class="node-rect" x="0" y="0" width="152" height="96" rx="10" fill="#0F172A" stroke="#F43F5E" stroke-width="1.2"/>
-    <rect x="12" y="12" width="28" height="28" rx="6" fill="#4C0519" stroke="#F43F5E" stroke-opacity="0.4" stroke-width="1"/>
-    <!-- Server / Lock Icon -->
-    <rect x="18" y="21" width="16" height="6" rx="1" stroke="#FB7185" stroke-width="1.3"/>
-    <rect x="18" y="29" width="16" height="6" rx="1" stroke="#FB7185" stroke-width="1.3"/>
-    <circle cx="31" cy="24" r="0.8" fill="#FB7185"/>
-    <circle cx="31" cy="32" r="0.8" fill="#FB7185"/>
-    <text x="48" y="24" fill="#E2E8F0" font-size="12" font-weight="700" class="font-sans">Backend Core</text>
-    <text x="48" y="36" fill="#F43F5E" font-size="10" font-weight="600" class="font-mono">Laravel / PHP</text>
-    <line x1="12" y1="48" x2="140" y2="48" stroke="#1E293B" stroke-width="1"/>
-    <text x="12" y="66" fill="#94A3B8" font-size="10.5" font-weight="500" class="font-sans">• Business Logic</text>
-    <text x="12" y="82" fill="#94A3B8" font-size="10.5" font-weight="500" class="font-sans">• Security &amp; RBAC</text>
+  <!-- ================= STAGE 04: BACKEND ================= -->
+  <g transform="translate(602, 48)">
+    <rect class="node-glow" x="0" y="0" width="162" height="136" rx="12" fill="url(#cardSurface)" stroke="#FB7185" stroke-width="1.2"/>
+    <g transform="translate(14, 14)">
+      <!-- Stage Badge -->
+      <rect x="0" y="0" width="24" height="18" rx="4" fill="#4C0519" stroke="#FB7185" stroke-width="0.8"/>
+      <text x="12" y="13" text-anchor="middle" fill="#FECDD3" font-size="10" font-weight="700" class="font-mono">04</text>
+      <text x="32" y="14" fill="#FECDD3" font-size="11" font-weight="700" class="font-mono">CORE ENGINE</text>
+      <!-- Title -->
+      <text x="0" y="38" fill="#FFFFFF" font-size="13" font-weight="700" class="font-sans">Laravel / PHP</text>
+      <line x1="0" y1="48" x2="134" y2="48" stroke="#1E293B" stroke-width="1"/>
+      <!-- Details -->
+      <text x="0" y="66" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Business Logic</text>
+      <text x="0" y="82" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• RBAC &amp; Security</text>
+      <text x="0" y="98" fill="#F43F5E" font-size="9.5" font-weight="600" class="font-mono">ENTERPRISE SCALE</text>
+    </g>
   </g>
 
-  <!-- NODE 5: Persistence & Database -->
-  <g transform="translate(768, 54)">
-    <rect class="node-rect" x="0" y="0" width="120" height="96" rx="10" fill="#0F172A" stroke="#F59E0B" stroke-width="1.2"/>
-    <rect x="12" y="12" width="28" height="28" rx="6" fill="#451A03" stroke="#F59E0B" stroke-opacity="0.4" stroke-width="1"/>
-    <!-- DB Cylinder Icon -->
-    <ellipse cx="26" cy="22" rx="7" ry="3" stroke="#FCD34D" stroke-width="1.3"/>
-    <path d="M19 22V30C19 31.6 22.1 33 26 33C29.9 33 33 31.6 33 30V22" stroke="#FCD34D" stroke-width="1.3"/>
-    <text x="48" y="24" fill="#E2E8F0" font-size="12" font-weight="700" class="font-sans">Persistence</text>
-    <text x="48" y="36" fill="#F59E0B" font-size="10" font-weight="600" class="font-mono">MySQL</text>
-    <line x1="12" y1="48" x2="108" y2="48" stroke="#1E293B" stroke-width="1"/>
-    <text x="12" y="66" fill="#94A3B8" font-size="10.5" font-weight="500" class="font-sans">• Relational DB</text>
-    <text x="12" y="82" fill="#94A3B8" font-size="10.5" font-weight="500" class="font-sans">• Optimization</text>
+  <!-- ================= STAGE 05: PERSISTENCE ================= -->
+  <g transform="translate(792, 48)">
+    <rect class="node-glow" x="0" y="0" width="136" height="136" rx="12" fill="url(#cardSurface)" stroke="#FCD34D" stroke-width="1.2"/>
+    <g transform="translate(14, 14)">
+      <!-- Stage Badge -->
+      <rect x="0" y="0" width="24" height="18" rx="4" fill="#451A03" stroke="#FCD34D" stroke-width="0.8"/>
+      <text x="12" y="13" text-anchor="middle" fill="#FEF3C7" font-size="10" font-weight="700" class="font-mono">05</text>
+      <text x="32" y="14" fill="#FEF3C7" font-size="11" font-weight="700" class="font-mono">STORAGE</text>
+      <!-- Title -->
+      <text x="0" y="38" fill="#FFFFFF" font-size="13" font-weight="700" class="font-sans">MySQL DB</text>
+      <line x1="0" y1="48" x2="108" y2="48" stroke="#1E293B" stroke-width="1"/>
+      <!-- Details -->
+      <text x="0" y="66" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Relational DB</text>
+      <text x="0" y="82" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Optimization</text>
+      <text x="0" y="98" fill="#F59E0B" font-size="9.5" font-weight="600" class="font-mono">INTEGRITY</text>
+    </g>
   </g>
 </svg>

@@ -1,24 +1,25 @@
 <div align="center">
 
-  <!-- Animated Hero Banner -->
-  <img src="assets/hero.svg" alt="Ali Qaid Saeed Alomary - Full-Stack Developer Banner" width="100%" />
+  <!-- ================= MASTER HERO BANNER ================= -->
+  <a href="https://github.com/Alomary-Ali">
+    <img src="assets/hero.svg" alt="Ali Qaid Saeed Alomary — Senior Full-Stack Developer &amp; UI/UX Architect" width="100%" />
+  </a>
 
   <br/><br/>
 
-  <!-- Quick Badges / Core Identity -->
+  <!-- Minimalist Executive Quick Links -->
   <a href="mailto:ali.q.alomary@gmail.com">
-    <img src="https://img.shields.io/badge/Email-ali.q.alomary%40gmail.com-0B0F17?style=flat-square&logo=gmail&logoColor=EA4335&labelColor=161B22" alt="Email" />
+    <img src="https://img.shields.io/badge/Direct_Inquiry-ali.q.alomary%40gmail.com-030712?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Direct Email" />
   </a>
   <a href="https://linkedin.com/in/ali-al-omary" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-ali--al--omary-0B0F17?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=161B22" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LinkedIn-ali--al--omary-030712?style=for-the-badge&logo=linkedin&logoColor=00F2FE" alt="LinkedIn Profile" />
   </a>
   <a href="https://alomary-ali.site.je" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-alomary--ali.site.je-0B0F17?style=flat-square&logo=google-chrome&logoColor=38BDF8&labelColor=161B22" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Live_Portfolio-alomary--ali.site.je-030712?style=for-the-badge&logo=googlechrome&logoColor=38BDF8" alt="Portfolio" />
   </a>
   <a href="https://github.com/Alomary-Ali">
-    <img src="https://img.shields.io/badge/GitHub-Alomary--Ali-0B0F17?style=flat-square&logo=github&logoColor=FFFFFF&labelColor=161B22" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-Alomary--Ali-030712?style=for-the-badge&logo=github&logoColor=F8FAFC" alt="GitHub" />
   </a>
-  <img src="https://img.shields.io/badge/Location-Sana'a%2C%20Yemen%20(UTC%2B3)-0B0F17?style=flat-square&logo=google-maps&logoColor=34D399&labelColor=161B22" alt="Location" />
 
 </div>
 
@@ -26,217 +27,183 @@
 
 ---
 
-### ⚡ Executive Profile & Philosophy
+### ✦ Architectural Philosophy & Engineering Discipline
 
-I am a **Full-Stack Developer** specializing in the synergy between **Flutter** for cross-platform mobile engineering and **Laravel** for resilient backend architectures. 
+> *"True full-stack engineering is the seamless synthesis of design precision and resilient architecture."*
 
-My engineering discipline centers on building scalable, clean, and easily maintainable systems using **Clean Architecture** and **Feature-First** methodologies. I bridge the gap between design and production by architecting secure **RESTful APIs**, robust relational database schemas (**MySQL**), and translating complex **Figma** design systems into fluid, pixel-perfect mobile applications for iOS and Android.
+I operate at the intersection of **Pixel-Perfect UI/UX** and **High-Throughput Backend Systems**, bridging the gap between Figma design systems and production-grade architectures. My development philosophy is rooted in structural longevity:
 
-* **Mobile Craftsmanship**: Reactive, high-performance mobile apps built with Flutter, driven by strict state management and modular design.
-* **Backend Robustness**: Scalable APIs, enterprise business logic, and role-based access control (RBAC) engineered in Laravel.
-* **Architectural Integrity**: Decoupled domain, data, and presentation layers that ensure testability and long-term sustainability.
-* **Design Fidelity**: Pixel-perfect UI implementation directly aligned with Figma prototypes and modern UX standards.
+* **Clean Architecture & Feature-First**: Strict isolation between Presentation, Domain, and Data layers. Features are encapsulated into modular, decoupled units, ensuring effortless testing, maintainability, and enterprise scalability.
+* **Resilient Backend Engines**: Engineering robust, secure RESTful APIs in **Laravel**, equipped with granular Role-Based Access Control (RBAC), optimized MySQL relational models, and comprehensive business logic.
+* **Fluid Mobile Experiences**: Delivering reactive, 60fps cross-platform mobile applications in **Flutter (iOS & Android)**, translating nuanced Figma interactions into high-fidelity code with zero visual regression.
 
 ---
 
-### 📐 System Pipeline & Engineering Architecture
+### ✦ System Pipeline & Architectural Flow
 
-The architecture below illustrates the end-to-end data and interface flow implemented across production projects:
+The diagram below reflects the end-to-end engineering pipeline implemented across production client solutions:
 
 <div align="center">
-  <img src="assets/architecture.svg" alt="Engineering Paradigm and System Architecture" width="100%" />
+  <img src="assets/architecture.svg" alt="System Pipeline and Architectural Integrity" width="100%" />
 </div>
+
+<br/>
 
 ---
 
-### 🛠️ Technical Arsenal
+### ✦ Specialized Technical Domains & Arsenal
+
+<div align="center">
+  <img src="assets/tech-stack.svg" alt="Specialized Technical Domains and Arsenal" width="100%" />
+</div>
+
+<br/>
+
+---
+
+### ✦ Featured Production & Engineering Projects
 
 <table>
-  <thead>
-    <tr>
-      <th width="30%">Domain</th>
-      <th width="70%">Technologies &amp; Paradigms</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td><b>📱 Mobile Engineering</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/Flutter-02569B?style=flat-square&logo=flutter&logoColor=white" alt="Flutter" />
-        <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white" alt="Dart" />
-        <img src="https://img.shields.io/badge/State_Management-1E293B?style=flat-square&logo=flutter&logoColor=38BDF8" alt="State Management" />
-        <img src="https://img.shields.io/badge/Android_%26_iOS-3DDC84?style=flat-square&logo=android&logoColor=white" alt="Android & iOS" />
-      </td>
-    </tr>
-    <tr>
-      <td><b>⚙️ Backend &amp; APIs</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
-        <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
-        <img src="https://img.shields.io/badge/RESTful_APIs-0284C7?style=flat-square&logo=fastapi&logoColor=white" alt="RESTful APIs" />
-        <img src="https://img.shields.io/badge/Business_Logic_%26_RBAC-334155?style=flat-square&logo=auth0&logoColor=white" alt="Security" />
-      </td>
-    </tr>
-    <tr>
-      <td><b>🗄️ Database &amp; Storage</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
-        <img src="https://img.shields.io/badge/Relational_Schema_Design-0F172A?style=flat-square&logo=databricks&logoColor=white" alt="Schema Design" />
-        <img src="https://img.shields.io/badge/Query_Optimization-1E293B?style=flat-square" alt="Query Optimization" />
-      </td>
-    </tr>
-    <tr>
-      <td><b>🏛️ Architecture Patterns</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/Clean_Architecture-4F46E5?style=flat-square" alt="Clean Architecture" />
-        <img src="https://img.shields.io/badge/Feature--First-4338CA?style=flat-square" alt="Feature-First" />
-        <img src="https://img.shields.io/badge/MVC-3730A3?style=flat-square" alt="MVC" />
-        <img src="https://img.shields.io/badge/SOLID_Principles-312E81?style=flat-square" alt="SOLID" />
-      </td>
-    </tr>
-    <tr>
-      <td><b>🎨 UI/UX &amp; Prototyping</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/Figma-F24E1E?style=flat-square&logo=figma&logoColor=white" alt="Figma" />
-        <img src="https://img.shields.io/badge/Pixel--Perfect_Execution-9333EA?style=flat-square" alt="Pixel-Perfect" />
-        <img src="https://img.shields.io/badge/Design_Systems-7E22CE?style=flat-square" alt="Design Systems" />
-        <img src="https://img.shields.io/badge/Interactive_Prototyping-6B21A8?style=flat-square" alt="Prototyping" />
-      </td>
-    </tr>
-    <tr>
-      <td><b>🔧 Toolchain &amp; Workflow</b></td>
-      <td>
-        <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git" />
-        <img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub" />
-        <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white" alt="Postman" />
-        <img src="https://img.shields.io/badge/AI--Assisted_Development-059669?style=flat-square&logo=openai&logoColor=white" alt="AI Assisted" />
-      </td>
-    </tr>
-  </tbody>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>01. SOUQAK Platform &amp; Uni-Cart</h3>
+      <p><b>Enterprise Multi-Vendor E-Commerce Ecosystem</b></p>
+      <p>A full-lifecycle commercial platform uniting a responsive Flutter client with an enterprise Laravel (Uni-Cart) administration engine.</p>
+      <ul>
+        <li><b>Architecture:</b> Feature-First Flutter mobile architecture synced via secure RESTful APIs to a multi-tenant Laravel core.</li>
+        <li><b>Engineering:</b> Real-time cart state management, checkout integrity, and high-throughput product catalog queries.</li>
+        <li><b>Design Fidelity:</b> Pixel-perfect implementation from custom Figma design tokens.</li>
+      </ul>
+      <p>
+        <code>Flutter</code> • <code>Laravel</code> • <code>Uni-Cart</code> • <code>RESTful APIs</code> • <code>MySQL</code>
+      </p>
+      <p>
+        <a href="https://isnadcompany.alwaysdata.net/" target="_blank">
+          <b>➔ Explore Live Platform Demo</b>
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>02. Bnaytic Platform (Benaytark)</h3>
+      <p><b>Business Logic &amp; Automated Reporting Engine</b></p>
+      <p>An enterprise administrative backend designed to streamline organizational workflows and generate official technical documentation.</p>
+      <ul>
+        <li><b>Architecture:</b> Domain-driven service layers in Laravel enforcing strict authorization and auditing workflows.</li>
+        <li><b>Security:</b> Fine-grained Role-Based Access Control (RBAC) protecting sensitive operations.</li>
+        <li><b>Reporting Engine:</b> Custom dynamic templating engine for high-resolution document and report printing.</li>
+      </ul>
+      <p>
+        <code>Laravel</code> • <code>PHP</code> • <code>MySQL</code> • <code>Dynamic Reports</code> • <code>RBAC</code>
+      </p>
+      <p>
+        <a href="https://alomary.alwaysdata.net/" target="_blank">
+          <b>➔ Access Live Platform Deployment</b>
+        </a>
+      </p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>03. Rafiq Al-Talib (رفيق الطالب)</h3>
+      <p><b>Qabilah Hackathon MVP Solution</b></p>
+      <p>High-velocity product engineered and deployed under intensive hackathon time constraints, demonstrating rapid prototyping agility.</p>
+      <ul>
+        <li><b>Rapid Delivery:</b> Formulated core architectural scope and implemented foundational user journeys under tight deadlines.</li>
+        <li><b>Agile Architecture:</b> Pragmatic full-stack implementation focused on core usability, speed, and clean code principles.</li>
+      </ul>
+      <p>
+        <code>Rapid MVP</code> • <code>Full-Stack</code> • <code>Hackathon Sprint</code>
+      </p>
+      <p>
+        <a href="https://qabilah.com/hackathon/255665101472799432/projects/259708267620470784" target="_blank">
+          <b>➔ View Official Hackathon Submission</b>
+        </a>
+      </p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>04. Smart Farm System (المزارع الذكي)</h3>
+      <p><b>Comprehensive Smart Agriculture System (B.S. Capstone)</b></p>
+      <p>An integrated IoT-ready agricultural management system orchestrating hardware state tracking, relational data models, and mobile interfaces.</p>
+      <ul>
+        <li><b>Full-Stack Scope:</b> Designed relational MySQL schemas and Laravel backend APIs controlling farm assets and metrics.</li>
+        <li><b>Mobile Client:</b> Flutter mobile client engineered directly from comprehensive pre-designed Figma prototypes.</li>
+      </ul>
+      <p>
+        <code>Laravel</code> • <code>MySQL</code> • <code>Flutter</code> • <code>Figma Spec</code> • <code>REST APIs</code>
+      </p>
+      <p>
+        <a href="https://github.com/Alomary-Ali" target="_blank">
+          <b>➔ Review Project Repository</b>
+        </a>
+      </p>
+    </td>
+  </tr>
 </table>
 
 ---
 
-### 🚀 Featured Production & Engineering Projects
+### ✦ Professional Leadership & Track Record
 
-#### 1. SOUQAK App & Uni-Cart Platform
-> **Enterprise E-Commerce Ecosystem** • *Production Full-Stack Solution*
-
-* **Architecture**: Cross-platform client in **Flutter** integrated with a **Laravel (Uni-Cart)** multi-vendor backend via secured **RESTful APIs**.
-* **Key Achievements**:
-  * Seamless state management across complex e-commerce flows (catalog, cart lifecycle, checkout).
-  * High-throughput API gateway facilitating real-time catalog syncing and order processing.
-  * Consistent UI/UX adhering to e-commerce usability patterns.
-* **Stack**: `Flutter` • `Laravel` • `Uni-Cart Backend` • `RESTful APIs` • `MySQL`
-* **Direct Access**: [🌐 Live Platform Demo](https://isnadcompany.alwaysdata.net/)
-
----
-
-#### 2. Bnaytic Management Platform (Benaytark)
-> **Business Logic & Enterprise Reporting Engine** • *Backend Engineering*
-
-* **Architecture**: Secure enterprise backend engineered with **Laravel**, emphasizing operational workflows, automated reporting, and role access.
-* **Key Achievements**:
-  * Designed complex domain business logic managing organizational operational data.
-  * Implemented granular security permissions and Role-Based Access Control (RBAC).
-  * Built dynamic templating engines for generating and printing structured official reports.
-* **Stack**: `Laravel` • `PHP` • `MySQL` • `Dynamic Report Templates` • `RBAC Security`
-* **Direct Access**: [🌐 Live Platform Deployment](https://alomary.alwaysdata.net/)
-
----
-
-#### 3. Rafiq Al-Talib (مشروع رفيق الطالب)
-> **Hackathon MVP Solution** • *Qabilah Hackathon*
-
-* **Architecture**: Rapid-turnaround Minimum Viable Product built under intensive time constraints during the prestigious **Qabilah Hackathon**.
-* **Key Achievements**:
-  * Formulated and executed core technical requirements into an operational MVP in a fast-paced environment.
-  * Validated system design under rapid prototyping sprints with strong focus on user value and core workflows.
-* **Stack**: `MVP Development` • `Full-Stack Architecture` • `Agile Prototyping`
-* **Direct Access**: [🏆 Official Hackathon Project Page](https://qabilah.com/hackathon/255665101472799432/projects/259708267620470784)
-
----
-
-#### 4. Smart Farm System (نظام المزارع الذكي)
-> **Comprehensive Smart Agricultural System** • *B.S. Graduation Project*
-
-* **Architecture**: Fully integrated smart farming solution spanning backend management, relational schema modeling, and client mobility.
-* **Key Achievements**:
-  * Architected and deployed backend micro-services and relational database models using **Laravel** & **MySQL**.
-  * Developed a responsive, user-friendly mobile application with **Flutter**, translating detailed pre-designed **Figma** interfaces into high-fidelity code.
-* **Stack**: `Laravel` • `MySQL` • `Flutter` • `Figma UI/UX` • `RESTful APIs`
-* **Repository**: [📦 Smart Farm System Workspace](https://github.com/Alomary-Ali)
-
----
-
-### 💼 Professional Experience & Team Leadership
-
-#### **Freelance Full-Stack Developer / Core Team Member**  
+#### **Freelance Full-Stack Developer &amp; Core Team Member**  
 **Isnad Software (إسناد للبرمجيات)** • *2023 – 2026*
 
-* **Team Synergy**: Co-founded and worked within a dedicated 4-engineer freelance unit, driving project planning, sprint coordination, and on-time client deliveries.
-* **System Design**: Spearheaded requirements engineering, converting complex client business concepts into robust relational database schemas and clean architecture blueprints.
-* **API Development**: Engineered performant, secure RESTful APIs in **Laravel** powering multiple mobile and web applications.
-* **Cross-Platform Mobile**: Developed responsive, high-performance **Flutter** applications for Android and iOS devices.
-* **Maintainability & Scale**: Championed **Clean Architecture** and **Feature-First** structure across codebases to ensure long-term code health, maintainability, and effortless onboarding.
-* **Design Implementation**: Collaborated closely with design specs, transforming **Figma** prototypes into pixel-perfect, accessible interactive interfaces.
+* **Team Coordination**: Co-founded and operated within a 4-engineer high-efficiency unit, orchestrating sprint cycles, architectural reviews, and milestone deliverables.
+* **Requirements to Schemas**: Spearheaded systems analysis, converting ambiguous commercial requirements into normalized relational schemas (MySQL) and clean architectural blueprints.
+* **API Infrastructure**: Built authenticated, documented RESTful APIs in Laravel supporting cross-platform mobile and web consumption.
+* **Mobile Engineering**: Delivered responsive Android and iOS apps using Flutter with strict state management and zero layout discrepancies against Figma.
+* **Standardization**: Enforced Clean Architecture and Feature-First folder structures across all team repositories, drastically reducing onboarding friction and technical debt.
 
 ---
 
-### 🎓 Academic Qualifications & Certifications
+### ✦ Academic Foundations & Continuous Mastery
 
 * **Bachelor of Information Technology**  
   *Al-Rasheed University (جامعة الرشيد)* • *2021 – 2026*
 * **AI Application Development (Summer Bootcamp)**  
   *EMC Foundation (مؤسسة EMC)*
-* **Professional Certificates (Coursera)**:
-  * `AI Fundamentals`
-  * `AI for App Building`
-  * `UX Design Foundations`
-  * `AI for Data Analysis`
+* **Professional Specializations (Coursera)**:
+  * `AI Fundamentals` • `AI for App Building` • `UX Design Foundations` • `AI for Data Analysis`
 
 ---
 
-### 📊 GitHub Activity & Real-Time Analytics
+### ✦ Real-Time Analytics & Contribution Trajectory
 
 <div align="center">
   <table border="0">
     <tr>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=Alomary-Ali&show_icons=true&theme=tokyonight&bg_color=0B0F17&title_color=38BDF8&text_color=94A3B8&icon_color=F43F5E&border_color=1E293B&hide_border=false" alt="Ali's GitHub Stats" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Alomary-Ali&show_icons=true&theme=tokyonight&bg_color=030712&title_color=00F2FE&text_color=94A3B8&icon_color=C084FC&border_color=1E293B&hide_border=false" alt="Ali's GitHub Performance" width="100%" />
       </td>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alomary-Ali&layout=compact&theme=tokyonight&bg_color=0B0F17&title_color=38BDF8&text_color=94A3B8&border_color=1E293B&hide_border=false" alt="Top Languages" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alomary-Ali&layout=compact&theme=tokyonight&bg_color=030712&title_color=00F2FE&text_color=94A3B8&border_color=1E293B&hide_border=false" alt="Top Languages Breakdown" width="100%" />
       </td>
     </tr>
   </table>
 
   <br/>
 
-  <!-- Interactive Contribution Snake -->
+  <!-- Automated Contribution Snake in Dark Palette -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Alomary-Ali/Alomary-Ali/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Alomary-Ali/Alomary-Ali/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/Alomary-Ali/Alomary-Ali/output/github-contribution-grid-snake-dark.svg" width="100%" />
+    <img alt="Interactive Contribution Snake" src="https://raw.githubusercontent.com/Alomary-Ali/Alomary-Ali/output/github-contribution-grid-snake-dark.svg" width="100%" />
   </picture>
 
 </div>
 
 ---
 
-### 📬 Connect & Collaborate
-
-I am always keen to discuss software architecture, mobile development, backend engineering, or new freelance and full-time technical opportunities.
+### ✦ Direct Channel & Engagement Matrix
 
 <div align="center">
 
-| Channel | Contact Reference | Action |
+| Channel | Identifier | Direct Action |
 | :--- | :--- | :--- |
-| **Direct Email** | `ali.q.alomary@gmail.com` | [✉️ Send Email](mailto:ali.q.alomary@gmail.com) |
-| **LinkedIn** | `in/ali-al-omary` | [💼 Connect on LinkedIn](https://linkedin.com/in/ali-al-omary) |
-| **Personal Web** | `alomary-ali.site.je` | [🌐 Visit Website](https://alomary-ali.site.je) |
-| **GitHub Profile** | `@Alomary-Ali` | [🐙 Explore Code](https://github.com/Alomary-Ali) |
-| **Location** | Sana'a, Yemen (UTC+3) | [📍 Available Globally / Remote](mailto:ali.q.alomary@gmail.com) |
+| **Direct Inquiries** | `ali.q.alomary@gmail.com` | [✉️ Initiate Correspondence](mailto:ali.q.alomary@gmail.com) |
+| **Professional Network** | `in/ali-al-omary` | [💼 Connect on LinkedIn](https://linkedin.com/in/ali-al-omary) |
+| **Engineering Portfolio** | `alomary-ali.site.je` | [🌐 Launch Live Portfolio](https://alomary-ali.site.je) |
+| **Source Repositories** | `@Alomary-Ali` | [🐙 Browse Repositories](https://github.com/Alomary-Ali) |
+| **Base Location** | Sana'a, Yemen (UTC+3) | [📍 Remote &amp; Global Availability](mailto:ali.q.alomary@gmail.com) |
 
 </div>
 
@@ -245,9 +212,9 @@ I am always keen to discuss software architecture, mobile development, backend e
 <div align="center">
 
 ```
-"Crafting scalable architectures and fluid digital experiences with Flutter & Laravel."
+"Architecting high-throughput backends and fluid mobile experiences with uncompromising design precision."
 ```
 
-<sub>Designed with high precision for <b>Ali Qaid Saeed Alomary</b> • © 2026</sub>
+<sub>Crafted with architectural precision for <b>Ali Qaid Saeed Alomary</b> • © 2026</sub>
 
 </div>
