@@ -1,24 +1,24 @@
 <div align="center">
 
-  <!-- ================= MASTER HERO BANNER ================= -->
+  <!-- ================= COURSERA-INSPIRED MASTER HERO ================= -->
   <a href="https://github.com/Alomary-Ali">
     <img src="assets/hero.svg" alt="Ali Qaid Saeed Alomary — Senior Full-Stack Developer &amp; UI/UX Architect" width="100%" />
   </a>
 
   <br/><br/>
 
-  <!-- Minimalist Executive Quick Links -->
+  <!-- Coursera Royal Blue Quick Links Bar -->
   <a href="mailto:ali.q.alomary@gmail.com">
-    <img src="https://img.shields.io/badge/Direct_Inquiry-ali.q.alomary%40gmail.com-030712?style=for-the-badge&logo=gmail&logoColor=EA4335" alt="Direct Email" />
+    <img src="https://img.shields.io/badge/Email-ali.q.alomary%40gmail.com-0056D2?style=for-the-badge&logo=gmail&logoColor=white" alt="Direct Email" />
   </a>
   <a href="https://linkedin.com/in/ali-al-omary" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-ali--al--omary-030712?style=for-the-badge&logo=linkedin&logoColor=00F2FE" alt="LinkedIn Profile" />
+    <img src="https://img.shields.io/badge/LinkedIn-ali--al--omary-0056D2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile" />
   </a>
   <a href="https://alomary-ali.site.je" target="_blank">
-    <img src="https://img.shields.io/badge/Live_Portfolio-alomary--ali.site.je-030712?style=for-the-badge&logo=googlechrome&logoColor=38BDF8" alt="Portfolio" />
+    <img src="https://img.shields.io/badge/Portfolio-alomary--ali.site.je-0056D2?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" />
   </a>
   <a href="https://github.com/Alomary-Ali">
-    <img src="https://img.shields.io/badge/GitHub-Alomary--Ali-030712?style=for-the-badge&logo=github&logoColor=F8FAFC" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GitHub-Alomary--Ali-0056D2?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
 
 </div>
@@ -27,24 +27,24 @@
 
 ---
 
-### ✦ Architectural Philosophy & Engineering Discipline
+### ✦ Architectural Philosophy & Engineering Standards
 
-> *"True full-stack engineering is the seamless synthesis of design precision and resilient architecture."*
+> *"Bridging resilient enterprise architectures with fluid, pixel-perfect user experiences."*
 
-I operate at the intersection of **Pixel-Perfect UI/UX** and **High-Throughput Backend Systems**, bridging the gap between Figma design systems and production-grade architectures. My development philosophy is rooted in structural longevity:
+Operating at the intersection of **Mobile Engineering (Flutter)** and **Backend Architecture (Laravel)**, I engineer systems with an emphasis on structural longevity, security, and human-centered design:
 
-* **Clean Architecture & Feature-First**: Strict isolation between Presentation, Domain, and Data layers. Features are encapsulated into modular, decoupled units, ensuring effortless testing, maintainability, and enterprise scalability.
-* **Resilient Backend Engines**: Engineering robust, secure RESTful APIs in **Laravel**, equipped with granular Role-Based Access Control (RBAC), optimized MySQL relational models, and comprehensive business logic.
-* **Fluid Mobile Experiences**: Delivering reactive, 60fps cross-platform mobile applications in **Flutter (iOS & Android)**, translating nuanced Figma interactions into high-fidelity code with zero visual regression.
+* **Clean Architecture & Feature-First**: Decoupling the domain, data, and presentation layers to ensure codebases are modular, testable, and maintainable over years of iteration.
+* **Enterprise Backend & RESTful APIs**: Developing robust, secured RESTful APIs with **Laravel**, backed by granular Role-Based Access Control (RBAC) and normalized **MySQL** database schemas.
+* **Fluid Mobile Experiences**: Delivering reactive, 60fps cross-platform mobile apps (**iOS & Android**) using **Flutter**, executing Figma design systems with strict pixel-perfect precision.
 
 ---
 
 ### ✦ System Pipeline & Architectural Flow
 
-The diagram below reflects the end-to-end engineering pipeline implemented across production client solutions:
+The interactive blueprint below illustrates the full-lifecycle data and interface pipeline implemented across client platforms:
 
 <div align="center">
-  <img src="assets/architecture.svg" alt="System Pipeline and Architectural Integrity" width="100%" />
+  <img src="assets/architecture.svg" alt="System Pipeline and Architectural Flow" width="100%" />
 </div>
 
 <br/>
@@ -67,12 +67,12 @@ The diagram below reflects the end-to-end engineering pipeline implemented acros
   <tr>
     <td width="50%" valign="top">
       <h3>01. SOUQAK Platform &amp; Uni-Cart</h3>
-      <p><b>Enterprise Multi-Vendor E-Commerce Ecosystem</b></p>
-      <p>A full-lifecycle commercial platform uniting a responsive Flutter client with an enterprise Laravel (Uni-Cart) administration engine.</p>
+      <p><b>Enterprise Multi-Vendor E-Commerce Solution</b></p>
+      <p>Full-scale commercial platform connecting a responsive Flutter mobile client with a Laravel Uni-Cart administration engine.</p>
       <ul>
-        <li><b>Architecture:</b> Feature-First Flutter mobile architecture synced via secure RESTful APIs to a multi-tenant Laravel core.</li>
-        <li><b>Engineering:</b> Real-time cart state management, checkout integrity, and high-throughput product catalog queries.</li>
-        <li><b>Design Fidelity:</b> Pixel-perfect implementation from custom Figma design tokens.</li>
+        <li><b>Architecture:</b> Feature-First Flutter mobile architecture integrated via secured RESTful APIs with a multi-tenant Laravel backend.</li>
+        <li><b>Execution:</b> Cart lifecycle state management, real-time checkout syncing, and optimized product queries.</li>
+        <li><b>Fidelity:</b> Pixel-perfect execution directly aligned with custom Figma design tokens.</li>
       </ul>
       <p>
         <code>Flutter</code> • <code>Laravel</code> • <code>Uni-Cart</code> • <code>RESTful APIs</code> • <code>MySQL</code>
@@ -86,11 +86,11 @@ The diagram below reflects the end-to-end engineering pipeline implemented acros
     <td width="50%" valign="top">
       <h3>02. Bnaytic Platform (Benaytark)</h3>
       <p><b>Business Logic &amp; Automated Reporting Engine</b></p>
-      <p>An enterprise administrative backend designed to streamline organizational workflows and generate official technical documentation.</p>
+      <p>Enterprise administrative backend built to manage operational data, security authorization, and automated reporting templates.</p>
       <ul>
-        <li><b>Architecture:</b> Domain-driven service layers in Laravel enforcing strict authorization and auditing workflows.</li>
-        <li><b>Security:</b> Fine-grained Role-Based Access Control (RBAC) protecting sensitive operations.</li>
-        <li><b>Reporting Engine:</b> Custom dynamic templating engine for high-resolution document and report printing.</li>
+        <li><b>Architecture:</b> Domain-driven service layers in Laravel enforcing strict authorization and workflow tracking.</li>
+        <li><b>Security:</b> Fine-grained Role-Based Access Control (RBAC) protecting sensitive company modules.</li>
+        <li><b>Dynamic Templating:</b> Automated engine for rendering and printing official technical reports.</li>
       </ul>
       <p>
         <code>Laravel</code> • <code>PHP</code> • <code>MySQL</code> • <code>Dynamic Reports</code> • <code>RBAC</code>
@@ -106,10 +106,10 @@ The diagram below reflects the end-to-end engineering pipeline implemented acros
     <td width="50%" valign="top">
       <h3>03. Rafiq Al-Talib (رفيق الطالب)</h3>
       <p><b>Qabilah Hackathon MVP Solution</b></p>
-      <p>High-velocity product engineered and deployed under intensive hackathon time constraints, demonstrating rapid prototyping agility.</p>
+      <p>High-velocity technical MVP engineered under intensive competitive time constraints during the Qabilah Hackathon.</p>
       <ul>
         <li><b>Rapid Delivery:</b> Formulated core architectural scope and implemented foundational user journeys under tight deadlines.</li>
-        <li><b>Agile Architecture:</b> Pragmatic full-stack implementation focused on core usability, speed, and clean code principles.</li>
+        <li><b>Agile Architecture:</b> Full-stack implementation focused on core usability, speed, and clean code principles.</li>
       </ul>
       <p>
         <code>Rapid MVP</code> • <code>Full-Stack</code> • <code>Hackathon Sprint</code>
@@ -123,10 +123,10 @@ The diagram below reflects the end-to-end engineering pipeline implemented acros
     <td width="50%" valign="top">
       <h3>04. Smart Farm System (المزارع الذكي)</h3>
       <p><b>Comprehensive Smart Agriculture System (B.S. Capstone)</b></p>
-      <p>An integrated IoT-ready agricultural management system orchestrating hardware state tracking, relational data models, and mobile interfaces.</p>
+      <p>Integrated agricultural management platform combining relational data tracking, backend services, and a mobile client.</p>
       <ul>
-        <li><b>Full-Stack Scope:</b> Designed relational MySQL schemas and Laravel backend APIs controlling farm assets and metrics.</li>
-        <li><b>Mobile Client:</b> Flutter mobile client engineered directly from comprehensive pre-designed Figma prototypes.</li>
+        <li><b>Full-Stack Scope:</b> Built backend services and relational MySQL schemas managing farm records and metrics.</li>
+        <li><b>Mobile Client:</b> Flutter mobile app engineered directly from pre-designed Figma UI/UX prototypes.</li>
       </ul>
       <p>
         <code>Laravel</code> • <code>MySQL</code> • <code>Flutter</code> • <code>Figma Spec</code> • <code>REST APIs</code>
@@ -147,22 +147,28 @@ The diagram below reflects the end-to-end engineering pipeline implemented acros
 #### **Freelance Full-Stack Developer &amp; Core Team Member**  
 **Isnad Software (إسناد للبرمجيات)** • *2023 – 2026*
 
-* **Team Coordination**: Co-founded and operated within a 4-engineer high-efficiency unit, orchestrating sprint cycles, architectural reviews, and milestone deliverables.
-* **Requirements to Schemas**: Spearheaded systems analysis, converting ambiguous commercial requirements into normalized relational schemas (MySQL) and clean architectural blueprints.
-* **API Infrastructure**: Built authenticated, documented RESTful APIs in Laravel supporting cross-platform mobile and web consumption.
-* **Mobile Engineering**: Delivered responsive Android and iOS apps using Flutter with strict state management and zero layout discrepancies against Figma.
-* **Standardization**: Enforced Clean Architecture and Feature-First folder structures across all team repositories, drastically reducing onboarding friction and technical debt.
+* **Team Coordination**: Co-founded and collaborated in a 4-engineer freelance unit, coordinating agile sprints, architecture reviews, and client deliverables.
+* **Requirements Analysis**: Spearheaded system architecture, translating complex business needs into clean relational schemas (MySQL) and technical specifications.
+* **RESTful API Engineering**: Built secure, authenticated RESTful APIs in Laravel supporting multi-platform clients.
+* **Cross-Platform Mobile**: Delivered responsive Android and iOS apps using Flutter with strict state management and zero layout drift against Figma.
+* **Standardization**: Championed Clean Architecture and Feature-First methodologies across projects, ensuring codebase maintainability and long-term health.
 
 ---
 
-### ✦ Academic Foundations & Continuous Mastery
+### ✦ Academic Foundations & Coursera Certifications
 
 * **Bachelor of Information Technology**  
   *Al-Rasheed University (جامعة الرشيد)* • *2021 – 2026*
 * **AI Application Development (Summer Bootcamp)**  
   *EMC Foundation (مؤسسة EMC)*
-* **Professional Specializations (Coursera)**:
-  * `AI Fundamentals` • `AI for App Building` • `UX Design Foundations` • `AI for Data Analysis`
+
+#### **Verified Coursera Certifications**:
+<p>
+  <img src="https://img.shields.io/badge/Coursera-AI_Fundamentals-0056D2?style=flat-square&logo=coursera&logoColor=white" alt="AI Fundamentals" />
+  <img src="https://img.shields.io/badge/Coursera-AI_for_App_Building-0056D2?style=flat-square&logo=coursera&logoColor=white" alt="AI for App Building" />
+  <img src="https://img.shields.io/badge/Coursera-UX_Design_Foundations-0056D2?style=flat-square&logo=coursera&logoColor=white" alt="UX Design Foundations" />
+  <img src="https://img.shields.io/badge/Coursera-AI_for_Data_Analysis-0056D2?style=flat-square&logo=coursera&logoColor=white" alt="AI for Data Analysis" />
+</p>
 
 ---
 
@@ -172,17 +178,17 @@ The diagram below reflects the end-to-end engineering pipeline implemented acros
   <table border="0">
     <tr>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=Alomary-Ali&show_icons=true&theme=tokyonight&bg_color=030712&title_color=00F2FE&text_color=94A3B8&icon_color=C084FC&border_color=1E293B&hide_border=false" alt="Ali's GitHub Performance" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Alomary-Ali&show_icons=true&theme=tokyonight&bg_color=060E1D&title_color=38BDF8&text_color=E2E8F0&icon_color=0056D2&border_color=1E3A8A&hide_border=false" alt="Ali's GitHub Performance" width="100%" />
       </td>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alomary-Ali&layout=compact&theme=tokyonight&bg_color=030712&title_color=00F2FE&text_color=94A3B8&border_color=1E293B&hide_border=false" alt="Top Languages Breakdown" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alomary-Ali&layout=compact&theme=tokyonight&bg_color=060E1D&title_color=38BDF8&text_color=E2E8F0&border_color=1E3A8A&hide_border=false" alt="Top Languages Breakdown" width="100%" />
       </td>
     </tr>
   </table>
 
   <br/>
 
-  <!-- Automated Contribution Snake in Dark Palette -->
+  <!-- Automated Contribution Snake in Coursera Blue Palette -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Alomary-Ali/Alomary-Ali/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Alomary-Ali/Alomary-Ali/output/github-contribution-grid-snake.svg" />
@@ -212,7 +218,7 @@ The diagram below reflects the end-to-end engineering pipeline implemented acros
 <div align="center">
 
 ```
-"Architecting high-throughput backends and fluid mobile experiences with uncompromising design precision."
+"Architecting resilient backends and fluid mobile experiences with uncompromising design precision."
 ```
 
 <sub>Crafted with architectural precision for <b>Ali Qaid Saeed Alomary</b> • © 2026</sub>
