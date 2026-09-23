@@ -1,34 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 250" width="100%" height="250" fill="none">
   <defs>
-    <!-- Coursera Deep Space Navy Gradient -->
+    <!-- Luxury Deep Obsidian Surface -->
     <linearGradient id="crTsBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050C1A"/>
-      <stop offset="50%" stop-color="#091428"/>
-      <stop offset="100%" stop-color="#040814"/>
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="50%" stop-color="#0B101B"/>
+      <stop offset="100%" stop-color="#060910"/>
     </linearGradient>
 
-    <!-- Card Fill Surface -->
+    <!-- Frosted Card Fill -->
     <linearGradient id="crCardSurface" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0D1A33" stop-opacity="0.95"/>
-      <stop offset="100%" stop-color="#071022" stop-opacity="0.98"/>
+      <stop offset="0%" stop-color="#0E1626" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#080E18" stop-opacity="0.95"/>
     </linearGradient>
 
-    <!-- Coursera Header Gradient -->
+    <!-- Header Gradient -->
     <linearGradient id="crHeadGrad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#38BDF8"/>
       <stop offset="50%" stop-color="#60A5FA"/>
       <stop offset="100%" stop-color="#93C5FD"/>
     </linearGradient>
 
-    <!-- Card Borders with Coursera Royal Blue Glow -->
+    <!-- Hairline Card Borders -->
     <linearGradient id="bBlue" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0056D2" stop-opacity="0.8"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.25"/>
+      <stop offset="0%" stop-color="#0056D2" stop-opacity="0.65"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.2"/>
     </linearGradient>
 
-    <!-- Technical Dot Grid -->
-    <pattern id="crTsDots" width="18" height="18" patternUnits="userSpaceOnUse">
-      <circle cx="9" cy="9" r="0.7" fill="#3B82F6" fill-opacity="0.2"/>
+    <!-- Hairline Frame Border -->
+    <linearGradient id="tsFrameBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.45"/>
+      <stop offset="30%" stop-color="#0056D2" stop-opacity="0.25"/>
+      <stop offset="70%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0056D2" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <!-- Subtle Dot Grid -->
+    <pattern id="crTsDots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="0.6" fill="#38BDF8" fill-opacity="0.12"/>
     </pattern>
   </defs>
 
@@ -37,15 +45,15 @@
     .font-mono { font-family: 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
 
     @keyframes pulseGlow {
-      0%, 100% { stroke-opacity: 0.5; }
-      50% { stroke-opacity: 0.95; }
+      0%, 100% { stroke-opacity: 0.4; }
+      50% { stroke-opacity: 0.85; }
     }
     .cr-card-border { animation: pulseGlow 4s infinite ease-in-out; }
   </style>
 
-  <!-- Container Base -->
-  <rect x="1.5" y="1.5" width="937" height="247" rx="16" fill="url(#crTsBg)" stroke="#1E3A8A" stroke-width="1.3"/>
-  <rect x="3" y="3" width="934" height="244" rx="15" fill="url(#crTsDots)"/>
+  <!-- Container Base Frame -->
+  <rect x="1" y="1" width="938" height="248" rx="16" fill="url(#crTsBg)" stroke="url(#tsFrameBorder)" stroke-width="1.2"/>
+  <rect x="2" y="2" width="936" height="246" rx="15" fill="url(#crTsDots)"/>
 
   <!-- Top Title Bar -->
   <g transform="translate(28, 20)">
@@ -92,9 +100,9 @@
   <g transform="translate(636, 44)">
     <rect class="cr-card-border" x="0" y="0" width="276" height="88" rx="10" fill="url(#crCardSurface)" stroke="url(#bBlue)" stroke-width="1.2"/>
     <g transform="translate(14, 14)">
-      <!-- Modern Architecture Vector Symbol -->
+      <!-- Architecture Vector Symbol -->
       <g transform="translate(0, 0)">
-        <rect x="0" y="0" width="20" height="20" rx="4" fill="#0056D2" fill-opacity="0.3"/>
+        <rect x="0" y="0" width="20" height="20" rx="4" fill="#0056D2" fill-opacity="0.25"/>
         <path d="M4 16L10 5L16 16H4Z" stroke="#60A5FA" stroke-width="1.4" fill="none"/>
         <circle cx="10" cy="12" r="1.5" fill="#38BDF8"/>
       </g>
@@ -144,7 +152,7 @@
   <g transform="translate(636, 142)">
     <rect class="cr-card-border" x="0" y="0" width="276" height="88" rx="10" fill="url(#crCardSurface)" stroke="url(#bBlue)" stroke-width="1.2"/>
     <g transform="translate(14, 14)">
-      <!-- Coursera & Git Vector Mark -->
+      <!-- Coursera Vector Mark -->
       <g transform="translate(0, 0)">
         <circle cx="10" cy="10" r="9" fill="#0056D2"/>
         <path d="M13 6.5C12.2 6.2 11.2 6 10 6C7.5 6 5.5 8 5.5 10.5C5.5 13 7.5 15 10 15C11.2 15 12.2 14.8 13 14.5" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round"/>

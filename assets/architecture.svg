@@ -1,27 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 210" width="100%" height="210" fill="none">
   <defs>
-    <!-- Coursera Deep Navy Gradient -->
+    <!-- Luxury Deep Obsidian Surface -->
     <linearGradient id="crPipeBg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#050C1A"/>
-      <stop offset="50%" stop-color="#091427"/>
-      <stop offset="100%" stop-color="#040813"/>
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="50%" stop-color="#0B101B"/>
+      <stop offset="100%" stop-color="#060910"/>
     </linearGradient>
 
-    <!-- Node Surface Fill -->
+    <!-- Frosted Node Surface -->
     <linearGradient id="crNodeSurface" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#0C1B36" stop-opacity="0.95"/>
-      <stop offset="100%" stop-color="#071022" stop-opacity="0.98"/>
+      <stop offset="0%" stop-color="#0E1626" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#080E18" stop-opacity="0.95"/>
     </linearGradient>
 
-    <!-- Border Glow -->
+    <!-- Hairline Node Border -->
     <linearGradient id="crNodeBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0056D2" stop-opacity="0.7"/>
-      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.3"/>
+      <stop offset="0%" stop-color="#0056D2" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.2"/>
     </linearGradient>
 
-    <!-- Dot Grid -->
-    <pattern id="crArchGrid" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="10" cy="10" r="0.75" fill="#3B82F6" fill-opacity="0.22"/>
+    <!-- Hairline Reflective Frame Border -->
+    <linearGradient id="pipeFrameBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.45"/>
+      <stop offset="30%" stop-color="#0056D2" stop-opacity="0.25"/>
+      <stop offset="70%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0056D2" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <!-- Spotlights -->
+    <radialGradient id="pipeSpot" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0056D2" stop-opacity="0.14"/>
+      <stop offset="70%" stop-color="#0056D2" stop-opacity="0.02"/>
+      <stop offset="100%" stop-color="#0056D2" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Subtle Dot Pattern -->
+    <pattern id="crArchGrid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="0.6" fill="#38BDF8" fill-opacity="0.12"/>
     </pattern>
   </defs>
 
@@ -29,7 +44,6 @@
     .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif; }
     .font-mono { font-family: 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
 
-    /* Animated Coursera Blue pulse data path */
     @keyframes crDataFlow {
       0% { stroke-dashoffset: 40; }
       100% { stroke-dashoffset: 0; }
@@ -46,9 +60,10 @@
     .cr-node-box { animation: crPulseNode 4s infinite ease-in-out; }
   </style>
 
-  <!-- Frame Base -->
-  <rect x="1.5" y="1.5" width="957" height="207" rx="18" fill="url(#crPipeBg)" stroke="#1E3A8A" stroke-width="1.3"/>
-  <rect x="3" y="3" width="954" height="204" rx="16" fill="url(#crArchGrid)"/>
+  <!-- Base Surface Frame -->
+  <rect x="1" y="1" width="958" height="208" rx="18" fill="url(#crPipeBg)" stroke="url(#pipeFrameBorder)" stroke-width="1.2"/>
+  <rect x="2" y="2" width="956" height="206" rx="17" fill="url(#crArchGrid)"/>
+  <rect x="2" y="2" width="956" height="206" rx="17" fill="url(#pipeSpot)"/>
 
   <!-- Header Bar -->
   <g transform="translate(32, 22)">
@@ -65,7 +80,7 @@
 
   <!-- ================= NODE 01: FIGMA UI/UX ================= -->
   <g transform="translate(32, 48)">
-    <rect class="cr-node-box" x="0" y="0" width="162" height="136" rx="12" fill="url(#crNodeSurface)" stroke="url(#crNodeBorder)" stroke-width="1.3"/>
+    <rect class="cr-node-box" x="0" y="0" width="162" height="136" rx="12" fill="url(#crNodeSurface)" stroke="url(#crNodeBorder)" stroke-width="1.2"/>
     <g transform="translate(14, 14)">
       <!-- Official Figma Vector Logo -->
       <g transform="translate(0, 0) scale(0.9)">
@@ -78,7 +93,7 @@
       <text x="26" y="14" fill="#E2E8F0" font-size="11.5" font-weight="700" class="font-sans">01. Design</text>
       <!-- Title -->
       <text x="0" y="38" fill="#FFFFFF" font-size="13" font-weight="700" class="font-sans">Figma System</text>
-      <line x1="0" y1="48" x2="134" y2="48" stroke="#1E3A8A" stroke-width="1"/>
+      <line x1="0" y1="48" x2="134" y2="48" stroke="#1E293B" stroke-width="1"/>
       <text x="0" y="66" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Pixel-Perfect Specs</text>
       <text x="0" y="82" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Design Tokens &amp; UX</text>
       <text x="0" y="98" fill="#38BDF8" font-size="9.5" font-weight="600" class="font-mono">PROTOTYPING</text>
@@ -87,7 +102,7 @@
 
   <!-- ================= NODE 02: FLUTTER MOBILE ================= -->
   <g transform="translate(222, 48)">
-    <rect class="cr-node-box" x="0" y="0" width="162" height="136" rx="12" fill="url(#crNodeSurface)" stroke="url(#crNodeBorder)" stroke-width="1.3"/>
+    <rect class="cr-node-box" x="0" y="0" width="162" height="136" rx="12" fill="url(#crNodeSurface)" stroke="url(#crNodeBorder)" stroke-width="1.2"/>
     <g transform="translate(14, 14)">
       <!-- Official Flutter Vector Logo -->
       <g transform="translate(0, 0) scale(0.78)">
@@ -99,7 +114,7 @@
       <text x="26" y="14" fill="#E2E8F0" font-size="11.5" font-weight="700" class="font-sans">02. Client</text>
       <!-- Title -->
       <text x="0" y="38" fill="#FFFFFF" font-size="13" font-weight="700" class="font-sans">Flutter / Dart</text>
-      <line x1="0" y1="48" x2="134" y2="48" stroke="#1E3A8A" stroke-width="1"/>
+      <line x1="0" y1="48" x2="134" y2="48" stroke="#1E293B" stroke-width="1"/>
       <text x="0" y="66" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Clean Architecture</text>
       <text x="0" y="82" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Feature-First Pattern</text>
       <text x="0" y="98" fill="#60A5FA" font-size="9.5" font-weight="600" class="font-mono">IOS &amp; ANDROID</text>
@@ -108,7 +123,7 @@
 
   <!-- ================= NODE 03: RESTFUL API GATEWAY ================= -->
   <g transform="translate(412, 48)">
-    <rect class="cr-node-box" x="0" y="0" width="162" height="136" rx="12" fill="url(#crNodeSurface)" stroke="url(#crNodeBorder)" stroke-width="1.3"/>
+    <rect class="cr-node-box" x="0" y="0" width="162" height="136" rx="12" fill="url(#crNodeSurface)" stroke="url(#crNodeBorder)" stroke-width="1.2"/>
     <g transform="translate(14, 14)">
       <!-- Official API Arrows Vector -->
       <g transform="translate(0, 0)">
@@ -119,7 +134,7 @@
       <text x="26" y="14" fill="#E2E8F0" font-size="11.5" font-weight="700" class="font-sans">03. Gateway</text>
       <!-- Title -->
       <text x="0" y="38" fill="#FFFFFF" font-size="13" font-weight="700" class="font-sans">RESTful APIs</text>
-      <line x1="0" y1="48" x2="134" y2="48" stroke="#1E3A8A" stroke-width="1"/>
+      <line x1="0" y1="48" x2="134" y2="48" stroke="#1E293B" stroke-width="1"/>
       <text x="0" y="66" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• JSON Contracts</text>
       <text x="0" y="82" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Postman Verified</text>
       <text x="0" y="98" fill="#38BDF8" font-size="9.5" font-weight="600" class="font-mono">SECURE TRANSIT</text>
@@ -128,7 +143,7 @@
 
   <!-- ================= NODE 04: LARAVEL BACKEND ================= -->
   <g transform="translate(602, 48)">
-    <rect class="cr-node-box" x="0" y="0" width="162" height="136" rx="12" fill="url(#crNodeSurface)" stroke="url(#crNodeBorder)" stroke-width="1.3"/>
+    <rect class="cr-node-box" x="0" y="0" width="162" height="136" rx="12" fill="url(#crNodeSurface)" stroke="url(#crNodeBorder)" stroke-width="1.2"/>
     <g transform="translate(14, 14)">
       <!-- Official Laravel Vector Logo -->
       <g transform="translate(0, 0) scale(0.75)">
@@ -138,7 +153,7 @@
       <text x="26" y="14" fill="#E2E8F0" font-size="11.5" font-weight="700" class="font-sans">04. Core Engine</text>
       <!-- Title -->
       <text x="0" y="38" fill="#FFFFFF" font-size="13" font-weight="700" class="font-sans">Laravel / PHP</text>
-      <line x1="0" y1="48" x2="134" y2="48" stroke="#1E3A8A" stroke-width="1"/>
+      <line x1="0" y1="48" x2="134" y2="48" stroke="#1E293B" stroke-width="1"/>
       <text x="0" y="66" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Business Logic</text>
       <text x="0" y="82" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Security &amp; RBAC</text>
       <text x="0" y="98" fill="#FB7185" font-size="9.5" font-weight="600" class="font-mono">ENTERPRISE SCALE</text>
@@ -147,7 +162,7 @@
 
   <!-- ================= NODE 05: MYSQL DATABASE ================= -->
   <g transform="translate(792, 48)">
-    <rect class="cr-node-box" x="0" y="0" width="136" height="136" rx="12" fill="url(#crNodeSurface)" stroke="url(#crNodeBorder)" stroke-width="1.3"/>
+    <rect class="cr-node-box" x="0" y="0" width="136" height="136" rx="12" fill="url(#crNodeSurface)" stroke="url(#crNodeBorder)" stroke-width="1.2"/>
     <g transform="translate(14, 14)">
       <!-- Official MySQL DB Vector Logo -->
       <g transform="translate(0, 0) scale(0.9)">
@@ -158,7 +173,7 @@
       <text x="24" y="14" fill="#E2E8F0" font-size="11.5" font-weight="700" class="font-sans">05. Storage</text>
       <!-- Title -->
       <text x="0" y="38" fill="#FFFFFF" font-size="13" font-weight="700" class="font-sans">MySQL DB</text>
-      <line x1="0" y1="48" x2="108" y2="48" stroke="#1E3A8A" stroke-width="1"/>
+      <line x1="0" y1="48" x2="108" y2="48" stroke="#1E293B" stroke-width="1"/>
       <text x="0" y="66" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Relational DB</text>
       <text x="0" y="82" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Query Optimize</text>
       <text x="0" y="98" fill="#FBBF24" font-size="9.5" font-weight="600" class="font-mono">INTEGRITY</text>

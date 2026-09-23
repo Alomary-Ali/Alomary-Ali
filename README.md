@@ -178,17 +178,17 @@ The interactive blueprint below illustrates the full-lifecycle data and interfac
   <table border="0">
     <tr>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api?username=Alomary-Ali&show_icons=true&theme=tokyonight&bg_color=060E1D&title_color=38BDF8&text_color=E2E8F0&icon_color=0056D2&border_color=1E3A8A&hide_border=false" alt="Ali's GitHub Performance" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api?username=Alomary-Ali&show_icons=true&theme=tokyonight&bg_color=080C14&title_color=38BDF8&text_color=E2E8F0&icon_color=0056D2&border_color=1E293B&hide_border=false" alt="Ali's GitHub Performance" width="100%" />
       </td>
       <td align="center" width="50%">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alomary-Ali&layout=compact&theme=tokyonight&bg_color=060E1D&title_color=38BDF8&text_color=E2E8F0&border_color=1E3A8A&hide_border=false" alt="Top Languages Breakdown" width="100%" />
+        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Alomary-Ali&layout=compact&theme=tokyonight&bg_color=080C14&title_color=38BDF8&text_color=E2E8F0&border_color=1E293B&hide_border=false" alt="Top Languages Breakdown" width="100%" />
       </td>
     </tr>
   </table>
 
   <br/>
 
-  <!-- Automated Contribution Snake in Coursera Blue Palette -->
+  <!-- Automated Contribution Snake in Luxury Coursera Blue Palette -->
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Alomary-Ali/Alomary-Ali/output/github-contribution-grid-snake-dark.svg" />
     <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Alomary-Ali/Alomary-Ali/output/github-contribution-grid-snake.svg" />
