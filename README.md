@@ -50,12 +50,10 @@ Operating at the intersection of **Mobile Engineering (Flutter)** and **Backend 
 
 ---
 
-### ✦ 3D Isometric Software Architecture • Exploded Layer Stack
-
-The 3D isometric visualization below represents the four decoupled structural tiers engineered across production systems:
+### ✦ Live Code IDE Simulator & Architectural Verification
 
 <div align="center">
-  <img src="assets/isometric-stack.svg" alt="3D Isometric Exploded Layer Stack" width="100%" />
+  <img src="assets/code-simulator.svg" alt="Live Code IDE Simulator - Clean Architecture in Action" width="100%" />
 </div>
 
 <br/>

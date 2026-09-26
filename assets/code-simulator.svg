@@ -1,0 +1,374 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360" width="100%" height="360" fill="none">
+  <defs>
+    <!-- Luxury Deep Obsidian Surface -->
+    <linearGradient id="ideBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070C16"/>
+      <stop offset="50%" stop-color="#0A1120"/>
+      <stop offset="100%" stop-color="#050912"/>
+    </linearGradient>
+
+    <!-- Hairline Reflective Frame Border -->
+    <linearGradient id="ideBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.5"/>
+      <stop offset="30%" stop-color="#0056D2" stop-opacity="0.3"/>
+      <stop offset="70%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0056D2" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Tab Active Gradient -->
+    <linearGradient id="tabActiveGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#101C33"/>
+      <stop offset="100%" stop-color="#0B1324"/>
+    </linearGradient>
+
+    <!-- Status Bar Background -->
+    <linearGradient id="statusBarGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0056D2" stop-opacity="0.18"/>
+      <stop offset="50%" stop-color="#0A1428" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#0056D2" stop-opacity="0.15"/>
+    </linearGradient>
+
+    <!-- Soft Glow Filter -->
+    <filter id="ideGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur"/>
+    </filter>
+
+    <!-- Dot Pattern -->
+    <pattern id="ideGrid" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="0.6" fill="#38BDF8" fill-opacity="0.08"/>
+    </pattern>
+  </defs>
+
+  <style>
+    .font-code {
+      font-family: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', Menlo, Consolas, monospace;
+    }
+    .font-ui {
+      font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif;
+    }
+
+    /* Tab Switch Synchronization (16s cycle) */
+    @keyframes showTab1 {
+      0%, 46% { opacity: 1; visibility: visible; }
+      50%, 96% { opacity: 0; visibility: hidden; }
+      100% { opacity: 1; visibility: visible; }
+    }
+    @keyframes showTab2 {
+      0%, 46% { opacity: 0; visibility: hidden; }
+      50%, 96% { opacity: 1; visibility: visible; }
+      100% { opacity: 0; visibility: hidden; }
+    }
+
+    .tab-content-1 { animation: showTab1 16s infinite ease-in-out; }
+    .tab-content-2 { animation: showTab2 16s infinite ease-in-out; }
+
+    /* Tab Header Active State Switch */
+    @keyframes tabHeader1 {
+      0%, 46% { fill: #0056D2; fill-opacity: 0.25; stroke: #38BDF8; stroke-opacity: 0.6; }
+      50%, 96% { fill: #070D18; fill-opacity: 0.5; stroke: #1E293B; stroke-opacity: 0.4; }
+      100% { fill: #0056D2; fill-opacity: 0.25; stroke: #38BDF8; stroke-opacity: 0.6; }
+    }
+    @keyframes tabHeader2 {
+      0%, 46% { fill: #070D18; fill-opacity: 0.5; stroke: #1E293B; stroke-opacity: 0.4; }
+      50%, 96% { fill: #0056D2; fill-opacity: 0.25; stroke: #38BDF8; stroke-opacity: 0.6; }
+      100% { fill: #070D18; fill-opacity: 0.5; stroke: #1E293B; stroke-opacity: 0.4; }
+    }
+
+    .tab-pill-1 { animation: tabHeader1 16s infinite ease-in-out; }
+    .tab-pill-2 { animation: tabHeader2 16s infinite ease-in-out; }
+
+    /* Blinking Caret Cursor */
+    @keyframes blinkCursor {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    .caret-cursor {
+      animation: blinkCursor 0.9s infinite;
+    }
+
+    /* Test Pulse Dot */
+    @keyframes testPulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(0.85); }
+    }
+    .test-dot {
+      animation: testPulse 2s infinite ease-in-out;
+      transform-origin: 32px 335px;
+    }
+  </style>
+
+  <!-- Ambient Blue Lighting -->
+  <circle cx="200" cy="140" r="140" fill="#0056D2" opacity="0.14" filter="url(#ideGlow)"/>
+  <circle cx="780" cy="200" r="130" fill="#0284C7" opacity="0.1" filter="url(#ideGlow)"/>
+
+  <!-- Main IDE Window Frame -->
+  <rect x="1" y="1" width="958" height="358" rx="16" fill="url(#ideBg)" stroke="url(#ideBorder)" stroke-width="1.2"/>
+  <rect x="2" y="2" width="956" height="356" rx="15" fill="url(#ideGrid)"/>
+
+  <!-- ================= TOP WINDOW BAR (macOS Controls & Tabs) ================= -->
+  <rect x="1" y="1" width="958" height="42" rx="16" fill="#060A13" stroke="#1E293B" stroke-width="1"/>
+
+  <!-- macOS Window Control Circles -->
+  <g transform="translate(18, 15)">
+    <circle cx="0" cy="6" r="5" fill="#EF4444" fill-opacity="0.85"/>
+    <circle cx="16" cy="6" r="5" fill="#F59E0B" fill-opacity="0.85"/>
+    <circle cx="32" cy="6" r="5" fill="#10B981" fill-opacity="0.85"/>
+  </g>
+
+  <!-- TAB 1: user_repository_impl.dart (Flutter / Clean Arch) -->
+  <g transform="translate(78, 6)">
+    <rect class="tab-pill-1" x="0" y="0" width="232" height="32" rx="8" stroke-width="1"/>
+    <!-- Flutter Icon Vector -->
+    <g transform="translate(12, 8) scale(0.65)">
+      <path d="M14.314 0L2.3 12 6 15.7 21.684.013h-7.37z" fill="#54C5F8"/>
+      <path d="M14.287 10.978L6.46 18.807 10.16 22.507 17.986 14.678h-3.699z" fill="#29B6F6"/>
+      <path d="M10.158 22.508L14.288 26.638H21.688L14.774 19.724 10.158 22.508z" fill="#01579B"/>
+      <path d="M14.774 19.724L17.986 14.678H21.686L17.572 18.792z" fill="#0288D1"/>
+    </g>
+    <text x="34" y="20" fill="#F1F5F9" font-size="11.5" font-weight="600" class="font-code">user_repository_impl.dart</text>
+  </g>
+
+  <!-- TAB 2: OrderController.php (Laravel / REST API) -->
+  <g transform="translate(320, 6)">
+    <rect class="tab-pill-2" x="0" y="0" width="206" height="32" rx="8" stroke-width="1"/>
+    <!-- Laravel Icon Vector -->
+    <g transform="translate(12, 8) scale(0.65)">
+      <path d="M2.5 7.5L12 2L21.5 7.5V18.5L12 24L2.5 18.5V7.5Z" fill="#FF2D20"/>
+    </g>
+    <text x="32" y="20" fill="#E2E8F0" font-size="11.5" font-weight="600" class="font-code">OrderController.php</text>
+  </g>
+
+  <!-- Top Right Environment Status Indicator -->
+  <g transform="translate(710, 14)">
+    <text x="0" y="11" fill="#64748B" font-size="10.5" font-weight="500" class="font-code">⎇ main • </text>
+    <circle cx="68" cy="8" r="3.5" fill="#10B981"/>
+    <text x="76" y="11" fill="#34D399" font-size="10.5" font-weight="700" class="font-code">CLEAN ARCH VERIFIED</text>
+  </g>
+
+  <!-- ================= SUB-HEADER BREADCRUMB BAR ================= -->
+  <rect x="1" y="43" width="958" height="26" fill="#060912" stroke="#1E293B" stroke-width="0.8"/>
+  <g transform="translate(24, 60)">
+    <text x="0" y="0" fill="#475569" font-size="10.5" font-weight="500" class="font-code">
+      <tspan fill="#38BDF8">alomary-core</tspan>
+      <tspan fill="#64748B"> &gt; </tspan>
+      <tspan fill="#94A3B8">src</tspan>
+      <tspan fill="#64748B"> &gt; </tspan>
+      <tspan fill="#94A3B8">features</tspan>
+      <tspan fill="#64748B"> &gt; </tspan>
+      <tspan fill="#CBD5E1">architecture_layer</tspan>
+      <tspan fill="#64748B"> &gt; </tspan>
+      <tspan fill="#F8FAFC">production_contract.spec</tspan>
+    </text>
+  </g>
+
+  <!-- ================= CODE CONTENT: TAB 1 (FLUTTER / CLEAN ARCH) ================= -->
+  <g class="tab-content-1">
+    <!-- Line Numbers Column -->
+    <g transform="translate(24, 94)" fill="#475569" font-size="11.5" font-weight="500" class="font-code">
+      <text x="0" y="0">01</text>
+      <text x="0" y="18">02</text>
+      <text x="0" y="36">03</text>
+      <text x="0" y="54">04</text>
+      <text x="0" y="72">05</text>
+      <text x="0" y="90">06</text>
+      <text x="0" y="108">07</text>
+      <text x="0" y="126">08</text>
+      <text x="0" y="144">09</text>
+      <text x="0" y="162">10</text>
+      <text x="0" y="180">11</text>
+      <text x="0" y="198">12</text>
+    </g>
+
+    <!-- Vertical Line Divider between line numbers and code -->
+    <line x1="50" y1="80" x2="50" y2="295" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Code Lines -->
+    <g transform="translate(62, 94)" font-size="12" class="font-code">
+      <!-- Line 01 -->
+      <text x="0" y="0">
+        <tspan fill="#F43F5E">class </tspan>
+        <tspan fill="#38BDF8">UserRepositoryImpl </tspan>
+        <tspan fill="#F43F5E">implements </tspan>
+        <tspan fill="#38BDF8">UserRepository </tspan>
+        <tspan fill="#F8FAFC">{</tspan>
+      </text>
+
+      <!-- Line 02 -->
+      <text x="0" y="18">
+        <tspan fill="#64748B">  final </tspan>
+        <tspan fill="#60A5FA">UserRemoteDataSource </tspan>
+        <tspan fill="#E2E8F0">remote;</tspan>
+      </text>
+
+      <!-- Line 03 -->
+      <text x="0" y="36">
+        <tspan fill="#64748B">  final </tspan>
+        <tspan fill="#60A5FA">UserLocalCache </tspan>
+        <tspan fill="#E2E8F0">localCache;</tspan>
+      </text>
+
+      <!-- Line 04 -->
+      <text x="0" y="54">
+        <tspan fill="#64748B">  // Clean Architecture: Decoupled Domain from Implementation</tspan>
+      </text>
+
+      <!-- Line 05 -->
+      <text x="0" y="72">
+        <tspan fill="#38BDF8">  UserRepositoryImpl</tspan>
+        <tspan fill="#F8FAFC">({</tspan>
+        <tspan fill="#F43F5E">required this</tspan><tspan fill="#F8FAFC">.remote, </tspan>
+        <tspan fill="#F43F5E">required this</tspan><tspan fill="#F8FAFC">.localCache});</tspan>
+      </text>
+
+      <!-- Line 06 -->
+      <text x="0" y="90">
+        <tspan fill="#F8FAFC">  </tspan>
+      </text>
+
+      <!-- Line 07 -->
+      <text x="0" y="108">
+        <tspan fill="#C084FC">  @override</tspan>
+      </text>
+
+      <!-- Line 08 -->
+      <text x="0" y="126">
+        <tspan fill="#F43F5E">  Future</tspan><tspan fill="#F8FAFC">&lt;</tspan><tspan fill="#FBBF24">Either</tspan><tspan fill="#F8FAFC">&lt;</tspan><tspan fill="#F43F5E">Failure</tspan><tspan fill="#F8FAFC">, </tspan><tspan fill="#38BDF8">UserEntity</tspan><tspan fill="#F8FAFC">&gt;&gt; </tspan>
+        <tspan fill="#60A5FA">getUserProfile</tspan><tspan fill="#F8FAFC">(</tspan><tspan fill="#38BDF8">String </tspan><tspan fill="#E2E8F0">userId</tspan><tspan fill="#F8FAFC">) </tspan><tspan fill="#F43F5E">async </tspan><tspan fill="#F8FAFC">{</tspan>
+      </text>
+
+      <!-- Line 09 -->
+      <text x="0" y="144">
+        <tspan fill="#F43F5E">    final </tspan><tspan fill="#E2E8F0">dto = </tspan><tspan fill="#F43F5E">await </tspan><tspan fill="#E2E8F0">remote.</tspan><tspan fill="#60A5FA">fetchUser</tspan><tspan fill="#F8FAFC">(</tspan><tspan fill="#E2E8F0">userId</tspan><tspan fill="#F8FAFC">); </tspan>
+        <tspan fill="#64748B">// Secured RESTful API Call</tspan>
+      </text>
+
+      <!-- Line 10 -->
+      <text x="0" y="162">
+        <tspan fill="#F43F5E">    return </tspan><tspan fill="#FBBF24">Right</tspan><tspan fill="#F8FAFC">(</tspan><tspan fill="#E2E8F0">dto.</tspan><tspan fill="#60A5FA">toDomainEntity</tspan><tspan fill="#F8FAFC">()); </tspan>
+        <tspan fill="#64748B">// Pure Business Model</tspan>
+      </text>
+
+      <!-- Line 11 -->
+      <text x="0" y="180">
+        <tspan fill="#F8FAFC">  }</tspan>
+      </text>
+
+      <!-- Line 12 -->
+      <text x="0" y="198">
+        <tspan fill="#F8FAFC">}</tspan>
+        <tspan class="caret-cursor" fill="#38BDF8"> ▋</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- ================= CODE CONTENT: TAB 2 (LARAVEL / REST API) ================= -->
+  <g class="tab-content-2">
+    <!-- Line Numbers Column -->
+    <g transform="translate(24, 94)" fill="#475569" font-size="11.5" font-weight="500" class="font-code">
+      <text x="0" y="0">01</text>
+      <text x="0" y="18">02</text>
+      <text x="0" y="36">03</text>
+      <text x="0" y="54">04</text>
+      <text x="0" y="72">05</text>
+      <text x="0" y="90">06</text>
+      <text x="0" y="108">07</text>
+      <text x="0" y="126">08</text>
+      <text x="0" y="144">09</text>
+      <text x="0" y="162">10</text>
+      <text x="0" y="180">11</text>
+      <text x="0" y="198">12</text>
+    </g>
+
+    <!-- Line Divider -->
+    <line x1="50" y1="80" x2="50" y2="295" stroke="#1E293B" stroke-width="1"/>
+
+    <!-- Code Lines -->
+    <g transform="translate(62, 94)" font-size="12" class="font-code">
+      <!-- Line 01 -->
+      <text x="0" y="0">
+        <tspan fill="#F43F5E">namespace </tspan>
+        <tspan fill="#E2E8F0">App\Http\Controllers\Api\V1;</tspan>
+      </text>
+
+      <!-- Line 02 -->
+      <text x="0" y="18">
+        <tspan fill="#F43F5E">use </tspan>
+        <tspan fill="#60A5FA">App\Services\OrderService</tspan><tspan fill="#F8FAFC">; </tspan>
+        <tspan fill="#64748B">// Feature-First Architecture</tspan>
+      </text>
+
+      <!-- Line 03 -->
+      <text x="0" y="36">
+        <tspan fill="#F43F5E">class </tspan>
+        <tspan fill="#38BDF8">OrderController </tspan>
+        <tspan fill="#F43F5E">extends </tspan>
+        <tspan fill="#38BDF8">BaseApiController </tspan>
+        <tspan fill="#F8FAFC">{</tspan>
+      </text>
+
+      <!-- Line 04 -->
+      <text x="0" y="54">
+        <tspan fill="#64748B">  // Strict RBAC Authorization &amp; Data Validation</tspan>
+      </text>
+
+      <!-- Line 05 -->
+      <text x="0" y="72">
+        <tspan fill="#F43F5E">  public function </tspan>
+        <tspan fill="#60A5FA">store</tspan><tspan fill="#F8FAFC">(</tspan><tspan fill="#38BDF8">StoreOrderRequest </tspan><tspan fill="#E2E8F0">$request</tspan><tspan fill="#F8FAFC">): </tspan><tspan fill="#38BDF8">JsonResponse </tspan><tspan fill="#F8FAFC">{</tspan>
+      </text>
+
+      <!-- Line 06 -->
+      <text x="0" y="90">
+        <tspan fill="#E2E8F0">    $order = $this-&gt;orderService-&gt;</tspan><tspan fill="#60A5FA">processCheckout</tspan><tspan fill="#F8FAFC">(</tspan>
+      </text>
+
+      <!-- Line 07 -->
+      <text x="0" y="108">
+        <tspan fill="#E2E8F0">      user: $request-&gt;</tspan><tspan fill="#60A5FA">user</tspan><tspan fill="#F8FAFC">(),</tspan>
+      </text>
+
+      <!-- Line 08 -->
+      <text x="0" y="126">
+        <tspan fill="#E2E8F0">      payload: $request-&gt;</tspan><tspan fill="#60A5FA">validated</tspan><tspan fill="#F8FAFC">()</tspan>
+      </text>
+
+      <!-- Line 09 -->
+      <text x="0" y="144">
+        <tspan fill="#F8FAFC">    );</tspan>
+      </text>
+
+      <!-- Line 10 -->
+      <text x="0" y="162">
+        <tspan fill="#F43F5E">    return </tspan><tspan fill="#38BDF8">ApiResponse</tspan><tspan fill="#F8FAFC">::</tspan><tspan fill="#60A5FA">created</tspan><tspan fill="#F8FAFC">(</tspan><tspan fill="#38BDF8">OrderResource</tspan><tspan fill="#F8FAFC">::</tspan><tspan fill="#60A5FA">make</tspan><tspan fill="#F8FAFC">($order));</tspan>
+      </text>
+
+      <!-- Line 11 -->
+      <text x="0" y="180">
+        <tspan fill="#F8FAFC">  }</tspan>
+      </text>
+
+      <!-- Line 12 -->
+      <text x="0" y="198">
+        <tspan fill="#F8FAFC">}</tspan>
+        <tspan class="caret-cursor" fill="#FB7185"> ▋</tspan>
+      </text>
+    </g>
+  </g>
+
+  <!-- ================= BOTTOM IDE TERMINAL & TELEMETRY BAR ================= -->
+  <rect x="1" y="304" width="958" height="55" rx="0" fill="url(#statusBarGrad)" stroke="#1E293B" stroke-width="1"/>
+
+  <g transform="translate(24, 335)">
+    <!-- Active Green Test Dot -->
+    <circle class="test-dot" cx="8" cy="0" r="4" fill="#10B981"/>
+    
+    <!-- Test Telemetry Output Line -->
+    <text x="22" y="4" fill="#E2E8F0" font-size="11" font-weight="600" class="font-code">
+      <tspan fill="#34D399">[ARCHITECTURE VERIFIED]</tspan>
+      <tspan fill="#64748B">  ✓ </tspan><tspan fill="#CBD5E1">Clean Arch Decoupled</tspan>
+      <tspan fill="#64748B">  ✓ </tspan><tspan fill="#38BDF8">Flutter 60.0 FPS Fluid UI</tspan>
+      <tspan fill="#64748B">  ✓ </tspan><tspan fill="#60A5FA">REST API Latency: 14ms</tspan>
+      <tspan fill="#64748B">  ✓ </tspan><tspan fill="#93C5FD">RBAC Security Passed</tspan>
+    </text>
+  </g>
+</svg>
