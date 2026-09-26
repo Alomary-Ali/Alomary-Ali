@@ -50,6 +50,18 @@ Operating at the intersection of **Mobile Engineering (Flutter)** and **Backend 
 
 ---
 
+### ✦ 3D Isometric Software Architecture • Exploded Layer Stack
+
+The 3D isometric visualization below represents the four decoupled structural tiers engineered across production systems:
+
+<div align="center">
+  <img src="assets/isometric-stack.svg" alt="3D Isometric Exploded Layer Stack" width="100%" />
+</div>
+
+<br/>
+
+---
+
 ### ✦ System Pipeline & Architectural Flow
 
 The interactive blueprint below illustrates the full-lifecycle data and interface pipeline implemented across client platforms:

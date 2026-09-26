@@ -1,0 +1,313 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 450" width="100%" height="450" fill="none">
+  <defs>
+    <!-- Luxury Deep Obsidian Surface -->
+    <linearGradient id="isoBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080C14"/>
+      <stop offset="50%" stop-color="#0B101B"/>
+      <stop offset="100%" stop-color="#060910"/>
+    </linearGradient>
+
+    <!-- Reflective Glass Hairline Frame -->
+    <linearGradient id="isoFrameBorder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.45"/>
+      <stop offset="30%" stop-color="#0056D2" stop-opacity="0.25"/>
+      <stop offset="70%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#0056D2" stop-opacity="0.35"/>
+    </linearGradient>
+
+    <!-- Atmospheric Spotlights -->
+    <radialGradient id="isoSpotCenter" cx="50%" cy="50%" r="55%">
+      <stop offset="0%" stop-color="#0056D2" stop-opacity="0.22"/>
+      <stop offset="50%" stop-color="#0284C7" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#0056D2" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Translucent Slab Glass Faces -->
+    <!-- Slab 1: Top (Cyan/Purple Glow) -->
+    <linearGradient id="slabTop1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0E223D" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#0A182C" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="slabBorder1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#C084FC" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Slab 2: Middle Top (Royal Blue Clean Architecture) -->
+    <linearGradient id="slabTop2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1E38" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#081426" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="slabBorder2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0056D2" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0.5"/>
+    </linearGradient>
+
+    <!-- Slab 3: Middle Bottom (Laravel / Rose Core) -->
+    <linearGradient id="slabTop3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#181324" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#0F0C18" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="slabBorder3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FB7185" stop-opacity="0.75"/>
+      <stop offset="100%" stop-color="#0056D2" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Slab 4: Base Foundation (MySQL / Gold Database) -->
+    <linearGradient id="slabTop4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1A181C" stop-opacity="0.92"/>
+      <stop offset="100%" stop-color="#0E0D12" stop-opacity="0.95"/>
+    </linearGradient>
+    <linearGradient id="slabBorder4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FBBF24" stop-opacity="0.7"/>
+      <stop offset="100%" stop-color="#0056D2" stop-opacity="0.4"/>
+    </linearGradient>
+
+    <!-- Laser Light Beam Gradients -->
+    <linearGradient id="laserBeam" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#0056D2" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#60A5FA" stop-opacity="0.7"/>
+    </linearGradient>
+
+    <!-- Subtle Dot Grid Texture -->
+    <pattern id="isoDots" width="22" height="22" patternUnits="userSpaceOnUse">
+      <circle cx="11" cy="11" r="0.6" fill="#38BDF8" fill-opacity="0.12"/>
+    </pattern>
+
+    <!-- Soft Blur Filter for Aura -->
+    <filter id="isoGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="30" result="blur"/>
+    </filter>
+  </defs>
+
+  <style>
+    .font-sans { font-family: -apple-system, BlinkMacSystemFont, 'Inter', 'Segoe UI', Roboto, sans-serif; }
+    .font-mono { font-family: 'JetBrains Mono', 'Fira Code', Menlo, Consolas, monospace; }
+
+    /* Weightless Anti-Gravity Floating Animations */
+    @keyframes floatLayer1 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-10px); }
+    }
+    @keyframes floatLayer2 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-7px); }
+    }
+    @keyframes floatLayer3 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-4px); }
+    }
+    @keyframes floatLayer4 {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-2px); }
+    }
+
+    .slab-float-1 { animation: floatLayer1 6s infinite ease-in-out; }
+    .slab-float-2 { animation: floatLayer2 6.5s infinite ease-in-out 0.4s; }
+    .slab-float-3 { animation: floatLayer3 7s infinite ease-in-out 0.8s; }
+    .slab-float-4 { animation: floatLayer4 7.5s infinite ease-in-out 1.2s; }
+
+    /* Vertical Data Photon Pulse */
+    @keyframes photonTravel {
+      0% { cy: 370px; opacity: 0; }
+      15% { opacity: 1; }
+      85% { opacity: 1; }
+      100% { cy: 90px; opacity: 0; }
+    }
+    .data-photon-1 { animation: photonTravel 2.4s linear infinite; }
+    .data-photon-2 { animation: photonTravel 2.4s linear infinite 1.2s; }
+
+    /* Ambient Laser Dash Pulse */
+    @keyframes dashTrace {
+      0% { stroke-dashoffset: 48; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .laser-trace {
+      stroke-dasharray: 6 6;
+      animation: dashTrace 2s linear infinite;
+    }
+  </style>
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="480" cy="230" r="180" fill="#0056D2" opacity="0.18" filter="url(#isoGlow)"/>
+
+  <!-- Base Canvas Frame -->
+  <rect x="1" y="1" width="958" height="448" rx="18" fill="url(#isoBg)" stroke="url(#isoFrameBorder)" stroke-width="1.2"/>
+  <rect x="2" y="2" width="956" height="446" rx="17" fill="url(#isoDots)"/>
+  <rect x="2" y="2" width="956" height="446" rx="17" fill="url(#isoSpotCenter)"/>
+
+  <!-- Top System Header Bar -->
+  <g transform="translate(32, 24)">
+    <circle cx="4" cy="5" r="3.5" fill="#38BDF8"/>
+    <text x="16" y="9" fill="#93C5FD" font-size="11" font-weight="700" class="font-mono" letter-spacing="1.5">3D ISOMETRIC SYSTEM ARCHITECTURE • EXPLODED LAYER STACK</text>
+    <text x="896" y="9" text-anchor="end" fill="#60A5FA" font-size="10" font-weight="600" class="font-mono">FOUR-TIER CLEAN ARCHITECTURE MATRIX</text>
+  </g>
+  <line x1="32" y1="46" x2="928" y2="46" stroke="#1E293B" stroke-width="1" stroke-opacity="0.6"/>
+
+  <!-- ================= 3D ISOMETRIC VERTICAL LASER BEAMS ================= -->
+  <!-- Laser Beam 1 (Left Pillar passing through all 4 layers) -->
+  <line class="laser-trace" x1="330" y1="85" x2="330" y2="385" stroke="url(#laserBeam)" stroke-width="1.6"/>
+  <!-- Laser Beam 2 (Right Pillar passing through all 4 layers) -->
+  <line class="laser-trace" x1="630" y1="85" x2="630" y2="385" stroke="url(#laserBeam)" stroke-width="1.6"/>
+  <!-- Laser Beam 3 (Center Axis) -->
+  <line x1="480" y1="75" x2="480" y2="395" stroke="#38BDF8" stroke-width="1" stroke-dasharray="3 3" opacity="0.4"/>
+
+  <!-- Traveling Data Photons on Lasers -->
+  <circle class="data-photon-1" cx="330" cy="370" r="3.5" fill="#38BDF8"/>
+  <circle class="data-photon-2" cx="630" cy="370" r="3.5" fill="#60A5FA"/>
+
+  <!-- ================= 3D ISOMETRIC SLABS (CENTER = 480) ================= -->
+
+  <!-- SLAB 04: BASE FOUNDATION (PERSISTENCE & MYSQL) -->
+  <g class="slab-float-4">
+    <!-- Drop Shadow under base -->
+    <ellipse cx="480" cy="390" rx="170" ry="46" fill="#000000" fill-opacity="0.6" filter="url(#isoGlow)"/>
+
+    <!-- Left Extruded Bevel Face -->
+    <polygon points="310,335 480,385 480,397 310,347" fill="#080D14" stroke="#FBBF24" stroke-opacity="0.3" stroke-width="0.8"/>
+    <!-- Right Extruded Bevel Face -->
+    <polygon points="480,385 650,335 650,347 480,397" fill="#05080E" stroke="#FBBF24" stroke-opacity="0.3" stroke-width="0.8"/>
+    <!-- Top Rhombus Face -->
+    <polygon points="480,285 650,335 480,385 310,335" fill="url(#slabTop4)" stroke="url(#slabBorder4)" stroke-width="1.5"/>
+
+    <!-- Slab Details & Icon -->
+    <g transform="translate(480, 335)">
+      <!-- MySQL Vector Logo Embedded -->
+      <g transform="translate(-14, -14) scale(0.9)">
+        <ellipse cx="15" cy="8" rx="11" ry="4" fill="#00758F"/>
+        <path d="M4 8V18C4 20 9 22 15 22C21 22 26 20 26 18V8" stroke="#F29111" stroke-width="2" fill="none"/>
+        <path d="M4 13C4 15 9 17 15 17C21 17 26 15 26 13" stroke="#00758F" stroke-width="1.6" fill="none"/>
+      </g>
+      <text x="0" y="24" text-anchor="middle" fill="#FEF3C7" font-size="11" font-weight="700" class="font-mono">TIER 04 : DATA PERSISTENCE (MYSQL)</text>
+    </g>
+  </g>
+
+  <!-- SLAB 03: SERVICES & API GATEWAY (LARAVEL CORE) -->
+  <g class="slab-float-3">
+    <!-- Left Extruded Bevel Face -->
+    <polygon points="310,265 480,315 480,327 310,277" fill="#0C0916" stroke="#FB7185" stroke-opacity="0.3" stroke-width="0.8"/>
+    <!-- Right Extruded Bevel Face -->
+    <polygon points="480,315 650,265 650,277 480,327" fill="#08060E" stroke="#FB7185" stroke-opacity="0.3" stroke-width="0.8"/>
+    <!-- Top Rhombus Face -->
+    <polygon points="480,215 650,265 480,315 310,265" fill="url(#slabTop3)" stroke="url(#slabBorder3)" stroke-width="1.5"/>
+
+    <!-- Slab Details & Icon -->
+    <g transform="translate(480, 265)">
+      <!-- Laravel Vector Logo Embedded -->
+      <g transform="translate(-13, -13) scale(0.85)">
+        <path d="M2.5 7.5L12 2L21.5 7.5V18.5L12 24L2.5 18.5V7.5Z" fill="#FF2D20"/>
+        <path d="M12 2V24M2.5 7.5L21.5 18.5M2.5 18.5L21.5 7.5" stroke="#FFFFFF" stroke-width="1.2" stroke-opacity="0.5"/>
+      </g>
+      <text x="0" y="24" text-anchor="middle" fill="#FFE4E6" font-size="11" font-weight="700" class="font-mono">TIER 03 : BACKEND CORE (LARAVEL &amp; REST APIs)</text>
+    </g>
+  </g>
+
+  <!-- SLAB 02: DOMAIN & CLEAN ARCHITECTURE LAYER -->
+  <g class="slab-float-2">
+    <!-- Left Extruded Bevel Face -->
+    <polygon points="310,195 480,245 480,257 310,207" fill="#060F1E" stroke="#0056D2" stroke-opacity="0.4" stroke-width="0.8"/>
+    <!-- Right Extruded Bevel Face -->
+    <polygon points="480,245 650,195 650,207 480,257" fill="#040A14" stroke="#0056D2" stroke-opacity="0.4" stroke-width="0.8"/>
+    <!-- Top Rhombus Face -->
+    <polygon points="480,145 650,195 480,245 310,195" fill="url(#slabTop2)" stroke="url(#slabBorder2)" stroke-width="1.5"/>
+
+    <!-- Slab Details & Icon -->
+    <g transform="translate(480, 195)">
+      <!-- Clean Architecture Geometric Symbol -->
+      <g transform="translate(-12, -12)">
+        <circle cx="12" cy="12" r="11" stroke="#0056D2" stroke-width="1.4" fill="none"/>
+        <circle cx="12" cy="12" r="6.5" stroke="#38BDF8" stroke-width="1.3" fill="none"/>
+        <circle cx="12" cy="12" r="2.5" fill="#60A5FA"/>
+      </g>
+      <text x="0" y="24" text-anchor="middle" fill="#E0F2FE" font-size="11" font-weight="700" class="font-mono">TIER 02 : DOMAIN &amp; CLEAN ARCHITECTURE</text>
+    </g>
+  </g>
+
+  <!-- SLAB 01: PRESENTATION & UI/UX LAYER (FLUTTER & FIGMA) -->
+  <g class="slab-float-1">
+    <!-- Left Extruded Bevel Face -->
+    <polygon points="310,125 480,175 480,187 310,137" fill="#071324" stroke="#38BDF8" stroke-opacity="0.5" stroke-width="0.8"/>
+    <!-- Right Extruded Bevel Face -->
+    <polygon points="480,175 650,125 650,137 480,187" fill="#040C18" stroke="#38BDF8" stroke-opacity="0.5" stroke-width="0.8"/>
+    <!-- Top Rhombus Face -->
+    <polygon points="480,75 650,125 480,175 310,125" fill="url(#slabTop1)" stroke="url(#slabBorder1)" stroke-width="1.6"/>
+
+    <!-- Slab Details & Flutter Icon -->
+    <g transform="translate(480, 125)">
+      <!-- Official Flutter Vector Icon -->
+      <g transform="translate(-13, -14) scale(0.9)">
+        <path d="M14.314 0L2.3 12 6 15.7 21.684.013h-7.37z" fill="#54C5F8"/>
+        <path d="M14.287 10.978L6.46 18.807 10.16 22.507 17.986 14.678h-3.699z" fill="#29B6F6"/>
+        <path d="M10.158 22.508L14.288 26.638H21.688L14.774 19.724 10.158 22.508z" fill="#01579B"/>
+        <path d="M14.774 19.724L17.986 14.678H21.686L17.572 18.792z" fill="#0288D1"/>
+      </g>
+      <text x="0" y="24" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="700" class="font-mono">TIER 01 : UI/UX &amp; FLUTTER CLIENT</text>
+    </g>
+  </g>
+
+  <!-- ================= ARCHITECTURAL CALLOUTS (LEFT WING) ================= -->
+
+  <!-- Callout 1 (Top-Left): UI/UX & Mobile Client -->
+  <g transform="translate(36, 85)">
+    <rect x="0" y="0" width="230" height="92" rx="12" fill="#0A1220" stroke="#38BDF8" stroke-opacity="0.4" stroke-width="1.2"/>
+    <g transform="translate(14, 14)">
+      <circle cx="4" cy="5" r="3" fill="#38BDF8"/>
+      <text x="14" y="9" fill="#38BDF8" font-size="11" font-weight="700" class="font-mono">TIER 01 • PRESENTATION</text>
+      <text x="0" y="30" fill="#FFFFFF" font-size="13" font-weight="700" class="font-sans">Figma ➔ Flutter Apps</text>
+      <line x1="0" y1="40" x2="202" y2="40" stroke="#1E293B" stroke-width="1"/>
+      <text x="0" y="56" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Pixel-Perfect Figma Implementation</text>
+      <text x="0" y="72" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Reactive BLoC / 60 FPS Mobile</text>
+    </g>
+    <!-- Pointer line to Slab 1 -->
+    <path d="M230 46L268 46L310 125" stroke="#38BDF8" stroke-width="1.2" stroke-dasharray="4 4" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- Callout 2 (Bottom-Left): Domain & Clean Architecture -->
+  <g transform="translate(36, 235)">
+    <rect x="0" y="0" width="230" height="92" rx="12" fill="#0A1220" stroke="#0056D2" stroke-opacity="0.5" stroke-width="1.2"/>
+    <g transform="translate(14, 14)">
+      <circle cx="4" cy="5" r="3" fill="#0056D2"/>
+      <text x="14" y="9" fill="#93C5FD" font-size="11" font-weight="700" class="font-mono">TIER 02 • DOMAIN CORE</text>
+      <text x="0" y="30" fill="#FFFFFF" font-size="13" font-weight="700" class="font-sans">Clean &amp; Feature-First</text>
+      <line x1="0" y1="40" x2="202" y2="40" stroke="#1E293B" stroke-width="1"/>
+      <text x="0" y="56" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Decoupled Domain &amp; Entities</text>
+      <text x="0" y="72" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• SOLID Principles &amp; Repository Pattern</text>
+    </g>
+    <!-- Pointer line to Slab 2 -->
+    <path d="M230 46L268 46L310 195" stroke="#0056D2" stroke-width="1.2" stroke-dasharray="4 4" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- ================= ARCHITECTURAL CALLOUTS (RIGHT WING) ================= -->
+
+  <!-- Callout 3 (Top-Right): Backend Core & RESTful APIs -->
+  <g transform="translate(694, 155)">
+    <rect x="0" y="0" width="230" height="92" rx="12" fill="#0A1220" stroke="#FB7185" stroke-opacity="0.4" stroke-width="1.2"/>
+    <g transform="translate(14, 14)">
+      <circle cx="4" cy="5" r="3" fill="#FB7185"/>
+      <text x="14" y="9" fill="#FB7185" font-size="11" font-weight="700" class="font-mono">TIER 03 • API HIGHWAY</text>
+      <text x="0" y="30" fill="#FFFFFF" font-size="13" font-weight="700" class="font-sans">Laravel RESTful Engine</text>
+      <line x1="0" y1="40" x2="202" y2="40" stroke="#1E293B" stroke-width="1"/>
+      <text x="0" y="56" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Secured REST APIs &amp; RBAC</text>
+      <text x="0" y="72" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Postman Tested &amp; Validated</text>
+    </g>
+    <!-- Pointer line to Slab 3 -->
+    <path d="M0 46L-36 46L-44 110" stroke="#FB7185" stroke-width="1.2" stroke-dasharray="4 4" fill="none" opacity="0.6"/>
+  </g>
+
+  <!-- Callout 4 (Bottom-Right): Relational Database & MySQL -->
+  <g transform="translate(694, 305)">
+    <rect x="0" y="0" width="230" height="92" rx="12" fill="#0A1220" stroke="#FBBF24" stroke-opacity="0.4" stroke-width="1.2"/>
+    <g transform="translate(14, 14)">
+      <circle cx="4" cy="5" r="3" fill="#FBBF24"/>
+      <text x="14" y="9" fill="#FCD34D" font-size="11" font-weight="700" class="font-mono">TIER 04 • PERSISTENCE</text>
+      <text x="0" y="30" fill="#FFFFFF" font-size="13" font-weight="700" class="font-sans">MySQL Relational DB</text>
+      <line x1="0" y1="40" x2="202" y2="40" stroke="#1E293B" stroke-width="1"/>
+      <text x="0" y="56" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Relational Schema Design</text>
+      <text x="0" y="72" fill="#CBD5E1" font-size="10.5" font-weight="500" class="font-sans">• Indexing &amp; Query Optimization</text>
+    </g>
+    <!-- Pointer line to Slab 4 -->
+    <path d="M0 46L-36 46L-44 30" stroke="#FBBF24" stroke-width="1.2" stroke-dasharray="4 4" fill="none" opacity="0.6"/>
+  </g>
+
+</svg>
