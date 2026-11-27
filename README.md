@@ -23,7 +23,7 @@ I care about maintainable code, reliable application behavior, and practical sol
 ## Technologies & Engineering
 
 <div align="center">
-  <img src="assets/tech-stack.svg" alt="My development toolkit: Flutter and Dart, Laravel and PHP, Vue.js, JavaScript and TypeScript, MySQL, relational database design, migrations, Git and automated testing" width="100%" />
+  <img src="assets/tech-stack.svg" alt="Development toolkit covering Flutter and Dart, Laravel and PHP, Vue.js, JavaScript and TypeScript, MySQL, relational data modeling, migrations, constraints, indexes, testing and Git" width="100%" />
 </div>
 
 - **Mobile Development:** Flutter, Dart, application state, API and network integration
@@ -32,19 +32,24 @@ I care about maintainable code, reliable application behavior, and practical sol
 - **Database Engineering:** MySQL, relational data modeling, schema migrations, constraints, and indexes
 - **Quality & Workflow:** Flutter testing, PHPUnit, static analysis, Git
 
-## Projects
+## Selected Projects
 
 ### [NAHJ · نهج](https://github.com/Alomary-Ali/nahj)
 
-I'm building **NAHJ**, a knowledge and discovery platform with a centrally managed learning academy and a separate space for discovering external resources and opportunities. The discovery section links to original sources instead of hosting their content.
+I'm developing **NAHJ**, a knowledge and discovery platform built around two distinct tracks:
+
+- **Academy:** centrally managed learning content and courses.
+- **Discovery:** a way to find external learning resources and opportunities, then continue to their original sources rather than re-hosting their content.
+
+The product direction also includes a federated search experience across both tracks while keeping their underlying content separate.
+
+### [BNAYTIC](#)
+
+I'm working on **BNAYTIC**, a mobile application built with Flutter and connected to a Laravel backend. The codebase is private, so the project is presented here without exposing internal implementation details.
 
 ### [Awesome Generative AI Guide](https://github.com/Alomary-Ali/awesome-generative-ai-guide)
 
-I created this guide to bring useful generative AI tools, resources, and learning material together in one place, making them easier to explore.
-
-### BNAYTIC
-
-I'm developing **BNAYTIC**, a mobile application built with Flutter and connected to a Laravel backend.
+A **fork** of [Aishwarya Naresh Reganti's original guide](https://github.com/aishwaryanr/awesome-generative-ai-guide). I keep it among my learning references for exploring generative AI courses, research, tools, notebooks, and interview preparation. The upstream project and its original authorship remain credited.
 
 ## Education
 
