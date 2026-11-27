@@ -1,64 +1,96 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 390" width="1200" height="390" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" role="img" aria-labelledby="title desc">
+  <title id="title">Ali Al-Omary | Full-Stack Developer</title>
+  <desc id="desc">Personal developer identity focused on Flutter, Laravel, frontend and backend engineering.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="390" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#080D0C"/><stop offset=".52" stop-color="#101A17"/><stop offset="1" stop-color="#080B0A"/>
+    <linearGradient id="surface" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101A17"/>
+      <stop offset=".52" stop-color="#0A100E"/>
+      <stop offset="1" stop-color="#111713"/>
     </linearGradient>
-    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#F5E6BC"/><stop offset=".48" stop-color="#C9A96E"/><stop offset="1" stop-color="#8D7043"/>
+    <linearGradient id="metal" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#F0D9A5"/>
+      <stop offset=".52" stop-color="#C5A66B"/>
+      <stop offset="1" stop-color="#80633C"/>
     </linearGradient>
-    <linearGradient id="emerald" x1="0" y1="0" x2="1" y2="1">
-      <stop stop-color="#57D6AE"/><stop offset="1" stop-color="#0F766E"/>
+    <linearGradient id="jade" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7BE2BD"/>
+      <stop offset="1" stop-color="#16836C"/>
     </linearGradient>
-    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(430 210 -190 390 190 80)" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#0F766E" stop-opacity=".35"/><stop offset="1" stop-color="#0F766E" stop-opacity="0"/>
+    <radialGradient id="aura" cx="0" cy="0" r="1" gradientTransform="translate(190 190) rotate(90) scale(300 410)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#147A64" stop-opacity=".30"/>
+      <stop offset="1" stop-color="#147A64" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="34" height="34" patternUnits="userSpaceOnUse">
-      <path d="M34 0H0V34" stroke="#B6A078" stroke-opacity=".075"/>
-      <circle cx="0" cy="0" r="1" fill="#D9C18F" fill-opacity=".22"/>
+    <pattern id="microgrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#BDA477" stroke-opacity=".055"/>
+      <circle cx="1" cy="1" r="1" fill="#D8C18E" fill-opacity=".18"/>
     </pattern>
-    <filter id="blur" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="28"/></filter>
   </defs>
-  <rect width="1200" height="390" rx="28" fill="url(#bg)"/>
-  <rect width="1200" height="390" rx="28" fill="url(#glow)"/>
-  <rect width="1200" height="390" rx="28" fill="url(#grid)"/>
-  <rect x="1" y="1" width="1198" height="388" rx="27" stroke="url(#gold)" stroke-opacity=".42" stroke-width="1.5"/>
-  <path d="M34 74H1166" stroke="#C9A96E" stroke-opacity=".24"/>
-  <g transform="translate(48 28)">
-    <circle cx="7" cy="7" r="4" fill="#57D6AE"/>
-    <text x="22" y="12" fill="#B9C8BE" font-family="monospace" font-size="11" letter-spacing="2.6">FULL-STACK DEVELOPER / YEMEN</text>
+
+  <rect width="1280" height="440" rx="26" fill="url(#surface)"/>
+  <rect width="1280" height="440" rx="26" fill="url(#aura)"/>
+  <rect width="1280" height="440" rx="26" fill="url(#microgrid)"/>
+  <rect x="1" y="1" width="1278" height="438" rx="25" stroke="url(#metal)" stroke-opacity=".48" stroke-width="1.5"/>
+  <path d="M42 82H1238" stroke="#C5A66B" stroke-opacity=".22"/>
+  <path d="M42 382H1238" stroke="#C5A66B" stroke-opacity=".18"/>
+
+  <g font-family="monospace">
+    <circle cx="56" cy="48" r="4" fill="#67D9B1"/>
+    <text x="70" y="52" fill="#B9C9BF" font-size="11" letter-spacing="2.6">AL-OMARY  /  SOFTWARE ENGINEERING</text>
+    <text x="1224" y="52" text-anchor="end" fill="#A7B4AA" font-size="11" letter-spacing="1.8">SANA'A · YEMEN</text>
   </g>
-  <g transform="translate(1000 25)">
-    <rect width="150" height="30" rx="15" fill="#10251F" stroke="#57D6AE" stroke-opacity=".5"/>
-    <circle cx="17" cy="15" r="4" fill="#57D6AE"/>
-    <text x="31" y="19" fill="#D5E8DD" font-family="monospace" font-size="10" letter-spacing="1">WEB + MOBILE</text>
+
+  <g transform="translate(66 116)">
+    <circle cx="112" cy="112" r="100" fill="#0B1511" stroke="url(#metal)" stroke-opacity=".75" stroke-width="1.5"/>
+    <circle cx="112" cy="112" r="88" fill="none" stroke="#5BCBA5" stroke-opacity=".35" stroke-dasharray="2 8"/>
+    <circle cx="112" cy="112" r="73" fill="#10221A" stroke="#4CB997" stroke-opacity=".35"/>
+    <path d="M54 147L111 48L169 147" fill="none" stroke="url(#jade)" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M79 119H145" stroke="url(#metal)" stroke-width="5" stroke-linecap="round"/>
+    <path d="M111 48V176" stroke="#F1E3C5" stroke-opacity=".22" stroke-width="1.5"/>
+    <circle cx="112" cy="112" r="5" fill="#F0D9A5"/>
+    <circle cx="112" cy="12" r="3" fill="#F0D9A5"/>
+    <circle cx="212" cy="112" r="3" fill="#67D9B1"/>
+    <circle cx="12" cy="112" r="3" fill="#67D9B1"/>
   </g>
-  <g transform="translate(58 112)">
-    <circle cx="112" cy="105" r="92" fill="#0B1713" stroke="#C9A96E" stroke-opacity=".45"/>
-    <circle cx="112" cy="105" r="78" stroke="#57D6AE" stroke-opacity=".24" stroke-dasharray="3 8"/>
-    <path d="M112 38L163 67V125L112 154L61 125V67L112 38Z" fill="#10251F" stroke="url(#gold)" stroke-width="2"/>
-    <path d="M80 120L112 62L144 120M91 101H133" stroke="url(#emerald)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
-    <path d="M112 62V154" stroke="#F5E6BC" stroke-opacity=".25" stroke-width="1.5"/>
-    <circle cx="112" cy="105" r="5" fill="#F5E6BC"/>
-    <circle cx="112" cy="13" r="3" fill="#C9A96E"/>
-    <circle cx="204" cy="105" r="3" fill="#57D6AE"/>
-    <circle cx="20" cy="105" r="3" fill="#57D6AE"/>
-  </g>
-  <g transform="translate(310 122)">
-    <text x="0" y="0" fill="#D6B982" font-family="monospace" font-size="12" font-weight="700" letter-spacing="4">FULL-STACK DEVELOPER</text>
-    <text x="0" y="65" fill="#F4F1E8" font-family="Arial, Helvetica, sans-serif" font-size="48" font-weight="700" letter-spacing="-1.5">Ali Al-Omary</text>
-    <text x="2" y="105" fill="#B7C7BD" font-family="Arial, Helvetica, sans-serif" font-size="19">Flutter &amp; Laravel  /  Frontend &amp; Backend</text>
-    <text x="2" y="145" fill="#8FA69A" font-family="Arial, Helvetica, sans-serif" font-size="14">Crafting web and mobile products with thoughtful engineering.</text>
-    <g transform="translate(0 178)">
-      <rect width="150" height="38" rx="10" fill="#10251F" stroke="#57D6AE" stroke-opacity=".65"/>
-      <text x="75" y="24" text-anchor="middle" fill="#BFEBDD" font-family="monospace" font-size="12" font-weight="700">FLUTTER</text>
-      <rect x="162" width="150" height="38" rx="10" fill="#211A11" stroke="#C9A96E" stroke-opacity=".7"/>
-      <text x="237" y="24" text-anchor="middle" fill="#E8D6AF" font-family="monospace" font-size="12" font-weight="700">LARAVEL</text>
-      <rect x="324" width="150" height="38" rx="10" fill="#111D19" stroke="#527C6C" stroke-opacity=".8"/>
-      <text x="399" y="24" text-anchor="middle" fill="#C7D9CE" font-family="monospace" font-size="12" font-weight="700">FULL-STACK</text>
+
+  <g transform="translate(326 126)">
+    <text x="0" y="0" fill="#D8BD85" font-family="monospace" font-size="12" font-weight="700" letter-spacing="3.5">FULL-STACK DEVELOPER</text>
+    <text x="0" y="68" fill="#F4F1E8" font-family="Arial, Helvetica, sans-serif" font-size="55" font-weight="700" letter-spacing="-1.8">Ali Al-Omary</text>
+    <text x="2" y="111" fill="#C2D0C7" font-family="Arial, Helvetica, sans-serif" font-size="21">Flutter &amp; Laravel  ·  Frontend &amp; Backend</text>
+    <text x="2" y="151" fill="#8FA69A" font-family="Arial, Helvetica, sans-serif" font-size="15">Web and mobile products, from interface to application logic.</text>
+
+    <g transform="translate(0 190)">
+      <rect width="154" height="42" rx="9" fill="#10271F" stroke="#57CDA7" stroke-opacity=".7"/>
+      <circle cx="18" cy="21" r="4" fill="#67D9B1"/>
+      <text x="34" y="26" fill="#D4F0E3" font-family="monospace" font-size="12" font-weight="700" letter-spacing="1">FLUTTER</text>
+
+      <rect x="168" width="154" height="42" rx="9" fill="#211B12" stroke="#C5A66B" stroke-opacity=".72"/>
+      <circle cx="186" cy="21" r="4" fill="#D8BD85"/>
+      <text x="202" y="26" fill="#F0E4CA" font-family="monospace" font-size="12" font-weight="700" letter-spacing="1">LARAVEL</text>
+
+      <rect x="336" width="154" height="42" rx="9" fill="#131C1A" stroke="#6B8E7E" stroke-opacity=".7"/>
+      <circle cx="354" cy="21" r="4" fill="#9CB8A8"/>
+      <text x="370" y="26" fill="#D6E1D9" font-family="monospace" font-size="12" font-weight="700" letter-spacing="1">FULL-STACK</text>
     </g>
   </g>
-  <g transform="translate(1010 322)" opacity=".8">
-    <path d="M0 0H140" stroke="#C9A96E" stroke-opacity=".55"/>
-    <text x="140" y="23" text-anchor="end" fill="#9BA99F" font-family="monospace" font-size="10" letter-spacing="2">BUILD WITH INTENT</text>
+
+  <g transform="translate(1010 138)" opacity=".92">
+    <circle cx="96" cy="96" r="94" fill="#0D1713" fill-opacity=".55" stroke="#C5A66B" stroke-opacity=".24"/>
+    <circle cx="96" cy="96" r="72" fill="none" stroke="#57CDA7" stroke-opacity=".32" stroke-dasharray="3 7"/>
+    <circle cx="96" cy="96" r="48" fill="none" stroke="#C5A66B" stroke-opacity=".35"/>
+    <path d="M96 26V166M26 96H166M46 46L146 146M146 46L46 146" stroke="#8EB19E" stroke-opacity=".2"/>
+    <path d="M96 55L132 76V117L96 138L60 117V76L96 55Z" fill="#10251D" stroke="url(#jade)" stroke-width="1.6"/>
+    <circle cx="96" cy="96" r="10" fill="url(#metal)"/>
+    <circle cx="96" cy="3" r="3" fill="#D8BD85"/>
+    <circle cx="189" cy="96" r="3" fill="#67D9B1"/>
+    <circle cx="3" cy="96" r="3" fill="#67D9B1"/>
+  </g>
+
+  <g font-family="monospace" font-size="10" letter-spacing="1.8" fill="#8FA69A">
+    <text x="48" y="414">MOBILE</text>
+    <text x="128" y="414" fill="#C5A66B">/</text>
+    <text x="146" y="414">WEB</text>
+    <text x="202" y="414" fill="#C5A66B">/</text>
+    <text x="220" y="414">BACKEND</text>
+    <text x="1230" y="414" text-anchor="end">BUILD WITH INTENT</text>
   </g>
 </svg>
