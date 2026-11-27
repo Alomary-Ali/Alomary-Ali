@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
   <title id="title">My development toolkit</title>
-  <desc id="desc">The technologies Ali Al-Omary uses for mobile, backend, frontend and database development.</desc>
+  <desc id="desc">My toolkit for mobile, backend, frontend, relational data, and development workflow.</desc>
   <defs>
     <linearGradient id="canvas" x1="0" y1="0" x2="1" y2="1">
       <stop stop-color="#101A17"/><stop offset="1" stop-color="#0A100E"/>
@@ -59,12 +59,12 @@
     <rect x="18" y="18" width="38" height="38" rx="10" fill="#3A301C"/>
     <ellipse cx="37" cy="29" rx="10" ry="4" stroke="#E4C98F" stroke-width="1.8"/>
     <path d="M27 29V45C27 50 47 50 47 45V29M27 37C27 42 47 42 47 37" stroke="#E4C98F" stroke-width="1.8" fill="none"/>
-    <text x="68" y="34" fill="#F2EADB" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Data &amp; Tools</text>
-    <text x="68" y="52" fill="#C6B38C" font-family="monospace" font-size="9" letter-spacing="1.4">PERSISTENCE / WORKFLOW</text>
+    <text x="68" y="34" fill="#F2EADB" font-family="Arial, Helvetica, sans-serif" font-size="17" font-weight="700">Data Engineering</text>
+    <text x="68" y="52" fill="#C6B38C" font-family="monospace" font-size="9" letter-spacing="1.4">RELATIONAL DATABASES</text>
     <path d="M18 76H244" stroke="#D9B978" stroke-opacity=".25"/>
     <text x="20" y="112" fill="#E3C68C" font-family="monospace" font-size="16" font-weight="700">MYSQL</text>
-    <text x="20" y="143" fill="#E1D7C3" font-family="Arial, Helvetica, sans-serif" font-size="14">Git · REST APIs</text>
-    <text x="20" y="177" fill="#B8AA8F" font-family="Arial, Helvetica, sans-serif" font-size="12">Relational data · Integration</text>
-    <text x="20" y="207" fill="#C5B38F" font-family="monospace" font-size="9" letter-spacing="1">DATA  ·  VERSION CONTROL</text>
+    <text x="20" y="143" fill="#E1D7C3" font-family="Arial, Helvetica, sans-serif" font-size="14">Schema · Migrations</text>
+    <text x="20" y="177" fill="#B8AA8F" font-family="Arial, Helvetica, sans-serif" font-size="12">Constraints · Indexes</text>
+    <text x="20" y="207" fill="#C5B38F" font-family="monospace" font-size="9" letter-spacing="1">DATA MODELING  ·  GIT</text>
   </g>
 </svg>
