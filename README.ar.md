@@ -4,7 +4,7 @@
 
   <br/><br/>
 
-  <img src="assets/hero.svg" alt="علي العمري، مطور Full-Stack متخصص في Flutter وLaravel" width="100%" />
+  <img src="assets/hero.svg" alt="علي العمري، مطور Full-Stack يعمل باستخدام Flutter وLaravel" width="100%" />
 
   <p>
     <a href="mailto:ali.q.alomary@gmail.com">البريد الإلكتروني</a> &nbsp;·&nbsp;
@@ -16,50 +16,44 @@
 
 ## نبذة عني
 
-أنا **Full-Stack Developer** أعمل على تطوير تطبيقات الويب والهواتف باستخدام **Flutter وLaravel**، وأطوّر الواجهات الأمامية والخلفية وأربطها عبر واجهات API وقواعد البيانات.
+أنا **مطور Full-Stack** أعمل باستخدام **Flutter وLaravel** في تطوير تطبيقات الهواتف والويب، وأتولى العمل على الواجهات الأمامية والخلفية وربطها عبر واجهات API وقواعد البيانات.
 
-أهتم ببناء حلول واضحة ومنظمة وقابلة للصيانة، مع التركيز على تجربة الاستخدام وجودة التنفيذ.
+أركز على كتابة شيفرات واضحة يسهل تطويرها وصيانتها، وبناء وظائف عملية تعالج احتياجات حقيقية.
 
-## التقنيات ومجالات العمل
+## التقنيات التي أستخدمها
 
 <div align="center">
-  <img src="assets/tech-stack.svg" alt="خريطة التقنيات: Flutter وDart وLaravel وPHP وVue.js وJavaScript وTypeScript وMySQL وGit" width="100%" />
+  <img src="assets/tech-stack.svg" alt="التقنيات التي أستخدمها: Flutter وDart وLaravel وPHP وVue.js وJavaScript وTypeScript وMySQL وGit" width="100%" />
 </div>
 
-- **تطبيقات الهاتف:** Flutter وDart
+- **تطبيقات الهواتف:** Flutter وDart
 - **Backend:** Laravel وPHP وREST APIs
 - **Frontend:** Vue.js وJavaScript وTypeScript
 - **قواعد البيانات:** MySQL
-- **سير العمل:** Git وتكامل واجهات API
+- **الأدوات:** Git
 
-## مشاريع مختارة
+## مشاريعي
 
 ### [NAHJ · نهج](https://github.com/Alomary-Ali/nahj)
 
-منصة للمعرفة والاكتشاف تجمع بين أكاديمية تعليمية تُدار مركزياً واكتشاف المصادر والفرص الخارجية. يوجّه قسم الاكتشاف المستخدم إلى المصادر الأصلية بدلاً من استضافة محتواها.
+أعمل على تطوير **نهج (NAHJ)**، وهي منصة للمعرفة والاكتشاف تضم أكاديمية تعليمية تُدار مركزياً، وقسماً مستقلاً لاكتشاف المصادر والفرص الخارجية. يوجّه قسم الاكتشاف المستخدم إلى المصادر الأصلية بدلاً من استضافة محتواها.
 
 ### [Awesome Generative AI Guide](https://github.com/Alomary-Ali/awesome-generative-ai-guide)
 
-دليل منظم لمصادر وأدوات ومواد تعلم الذكاء الاصطناعي التوليدي، يساعد على استكشاف الموارد والوصول إليها.
+أعددت هذا الدليل لتسهيل الوصول إلى أدوات ومصادر ومواد تعلم الذكاء الاصطناعي التوليدي واستكشافها.
 
 ### BNAYTIC
 
-تطبيق للهواتف مبني باستخدام Flutter ومتكامل مع Backend باستخدام Laravel. مستودعات المصدر محدودة الوصول، لذلك تبقى تفاصيل التنفيذ غير منشورة.
+أطوّر **BNAYTIC**، وهو تطبيق للهواتف مبني باستخدام Flutter ومتكامل مع نظام خلفي باستخدام Laravel.
 
 ## التعليم
 
 **بكالوريوس تقنية المعلومات**  
 جامعة الرشيد الذكية · 2022–2026
 
-## التواصل
+## تواصل معي
 
 - **البريد الإلكتروني:** [ali.q.alomary@gmail.com](mailto:ali.q.alomary@gmail.com)
 - **LinkedIn:** [linkedin.com/in/ali-al-omary-29a474414](https://linkedin.com/in/ali-al-omary-29a474414)
 - **معرض الأعمال:** [alomary-ali.site.je](https://alomary-ali.site.je)
 - **GitHub:** [github.com/Alomary-Ali](https://github.com/Alomary-Ali)
-
----
-
-<div align="center">
-  <sub>وضوح في التصميم · دقة في الهندسة · عناية في التنفيذ</sub>
-</div>
