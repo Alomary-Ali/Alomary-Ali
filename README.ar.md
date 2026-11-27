@@ -1,92 +1,65 @@
 <div align="center">
 
-  <a href="README.md">🇬🇧 English</a> &nbsp;·&nbsp; <a href="README.ar.md">🇾🇪 العربية</a>
+  <a href="README.md">ENGLISH</a> &nbsp;·&nbsp; <a href="README.ar.md">العربية</a>
 
   <br/><br/>
 
-  <img src="assets/hero.svg" alt="علي العمري | Full-Stack Developer متخصص في Flutter وLaravel" width="100%" />
+  <img src="assets/hero.svg" alt="علي العمري، مطور Full-Stack متخصص في Flutter وLaravel" width="100%" />
 
   <p>
-    <a href="mailto:ali.q.alomary@gmail.com">✉ البريد الإلكتروني</a> &nbsp;·&nbsp;
+    <a href="mailto:ali.q.alomary@gmail.com">البريد الإلكتروني</a> &nbsp;·&nbsp;
     <a href="https://linkedin.com/in/ali-al-omary-29a474414">LinkedIn</a> &nbsp;·&nbsp;
-    <a href="https://alomary-ali.site.je">معرض الأعمال</a> &nbsp;·&nbsp;
-    <a href="https://github.com/Alomary-Ali">GitHub</a>
+    <a href="https://alomary-ali.site.je">معرض الأعمال</a>
   </p>
 
-  <p><sub>صنعاء، اليمن &nbsp; / &nbsp; تطوير حلول الويب والهواتف</sub></p>
 </div>
 
----
+## نبذة عني
 
-## من أنا؟
+أنا **Full-Stack Developer** أعمل على تطوير تطبيقات الويب والهواتف باستخدام **Flutter وLaravel**، وأطوّر الواجهات الأمامية والخلفية وأربطها عبر واجهات API وقواعد البيانات.
 
-أنا **Full-Stack Developer** أعمل على تطوير تطبيقات الويب والهواتف باستخدام **Flutter وLaravel**، وأهتم ببناء الواجهات الأمامية والخلفية وربطها ضمن منتجات عملية ومتكاملة.
+أهتم ببناء حلول واضحة ومنظمة وقابلة للصيانة، مع التركيز على تجربة الاستخدام وجودة التنفيذ.
 
-أستمتع بتحويل الأفكار إلى حلول برمجية واضحة وقابلة للتطوير والصيانة، بدءاً من تجربة المستخدم والواجهات، وصولاً إلى منطق الأعمال وواجهات API وقواعد البيانات.
-
-## مجالات العمل والتقنيات
+## التقنيات ومجالات العمل
 
 <div align="center">
-  <img src="assets/tech-stack.svg" alt="خريطة التقنيات: Flutter وDart وLaravel وPHP وVue.js وJavaScript وTypeScript وMySQL" width="100%" />
+  <img src="assets/tech-stack.svg" alt="خريطة التقنيات: Flutter وDart وLaravel وPHP وVue.js وJavaScript وTypeScript وMySQL وGit" width="100%" />
 </div>
 
-| المجال | التقنيات |
-|:--|:--|
-| **تطبيقات الهاتف** | Flutter · Dart |
-| **Backend** | Laravel · PHP · REST APIs |
-| **Frontend** | Vue.js · JavaScript · TypeScript |
-| **قواعد البيانات** | MySQL · تصميم قواعد البيانات العلائقية |
-| **سير العمل** | Git · تكامل APIs · الاختبارات · كتابة كود قابل للصيانة |
+- **تطبيقات الهاتف:** Flutter وDart
+- **Backend:** Laravel وPHP وREST APIs
+- **Frontend:** Vue.js وJavaScript وTypeScript
+- **قواعد البيانات:** MySQL
+- **سير العمل:** Git وتكامل واجهات API
 
 ## مشاريع مختارة
 
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Alomary-Ali/nahj">NAHJ · نهج</a></h3>
-      <p>منصة للمعرفة والاكتشاف تجمع بين أكاديمية تعليمية تُدار مركزياً واكتشاف المصادر والفرص الخارجية، مع توجيه المستخدم إلى المصدر الأصلي.</p>
-      <sub>منتج رقمي · معرفة · اكتشاف</sub>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/Alomary-Ali/awesome-generative-ai-guide">Awesome Generative AI Guide</a></h3>
-      <p>دليل منظم لمصادر وأدوات ومواد تعلم الذكاء الاصطناعي التوليدي، لتسهيل الاستكشاف والوصول إلى الموارد.</p>
-      <sub>مفتوح المصدر · ذكاء اصطناعي توليدي · تنظيم موارد</sub>
-    </td>
-  </tr>
-  <tr>
-    <td colspan="2" valign="top">
-      <h3>BNAYTIC</h3>
-      <p>تطبيق للهواتف مبني باستخدام Flutter ومتكامل مع Backend باستخدام Laravel. مستودعات المصدر محدودة الوصول، لذلك تبقى تفاصيل التنفيذ الخاصة غير منشورة.</p>
-      <sub>FLUTTER · LARAVEL · تطبيقات الهاتف وواجهات API</sub>
-    </td>
-  </tr>
-</table>
+### [NAHJ · نهج](https://github.com/Alomary-Ali/nahj)
 
-## نشاط GitHub
+منصة للمعرفة والاكتشاف تجمع بين أكاديمية تعليمية تُدار مركزياً واكتشاف المصادر والفرص الخارجية. يوجّه قسم الاكتشاف المستخدم إلى المصادر الأصلية بدلاً من استضافة محتواها.
 
-<div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=Alomary-Ali&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0B1411&title_color=D9C18F&text_color=C5D5CB&icon_color=57D6AE" alt="إحصائيات GitHub" width="49%" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Alomary-Ali&layout=compact&hide_border=true&bg_color=0B1411&title_color=D9C18F&text_color=C5D5CB" alt="اللغات الأكثر استخداماً" width="41%" />
-  <br/><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Alomary-Ali&hide_border=true&background=0B1411&ring=57D6AE&fire=D9C18F&currStreakLabel=D9C18F&sideLabels=C5D5CB&dates=82968A" alt="استمرارية المساهمات" width="90%" />
-</div>
+### [Awesome Generative AI Guide](https://github.com/Alomary-Ali/awesome-generative-ai-guide)
 
-<sub>تعتمد بطاقات النشاط على خدمات خارجية، وقد تتوقف مؤقتاً أو تختلف عن عرض GitHub الأصلي.</sub>
+دليل منظم لمصادر وأدوات ومواد تعلم الذكاء الاصطناعي التوليدي، يساعد على استكشاف الموارد والوصول إليها.
+
+### BNAYTIC
+
+تطبيق للهواتف مبني باستخدام Flutter ومتكامل مع Backend باستخدام Laravel. مستودعات المصدر محدودة الوصول، لذلك تبقى تفاصيل التنفيذ غير منشورة.
 
 ## التعليم
 
 **بكالوريوس تقنية المعلومات**  
 جامعة الرشيد الذكية · 2022–2026
 
-## تواصل معي
+## التواصل
 
 - **البريد الإلكتروني:** [ali.q.alomary@gmail.com](mailto:ali.q.alomary@gmail.com)
 - **LinkedIn:** [linkedin.com/in/ali-al-omary-29a474414](https://linkedin.com/in/ali-al-omary-29a474414)
 - **معرض الأعمال:** [alomary-ali.site.je](https://alomary-ali.site.je)
-- **الموقع:** صنعاء، اليمن · متاح للتعاون عن بُعد
+- **GitHub:** [github.com/Alomary-Ali](https://github.com/Alomary-Ali)
 
 ---
 
 <div align="center">
-  <sub>وضوح في التصميم، دقة في الهندسة، واهتمام بكل تفصيل.</sub>
+  <sub>وضوح في التصميم · دقة في الهندسة · عناية في التنفيذ</sub>
 </div>
