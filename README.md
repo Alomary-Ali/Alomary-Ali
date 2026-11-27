@@ -43,7 +43,7 @@ I'm developing **NAHJ**, a knowledge and discovery platform built around two dis
 
 The product direction also includes a federated search experience across both tracks while keeping their underlying content separate.
 
-### [BNAYTIC](#)
+### BNAYTIC
 
 I'm working on **BNAYTIC**, a mobile application built with Flutter and connected to a Laravel backend. The codebase is private, so the project is presented here without exposing internal implementation details.
 
