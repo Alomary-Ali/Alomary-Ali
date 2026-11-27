@@ -1,74 +1,92 @@
 <div align="center">
 
-  <a href="README.md"><img src="assets/btn-lang-en-active.svg" height="40" alt="English" /></a>
-  &nbsp;&nbsp;
-  <a href="README.ar.md"><img src="assets/btn-lang-ar-cta.svg" height="40" alt="العربية" /></a>
+  <a href="README.md">🇬🇧 English</a> &nbsp;·&nbsp; <a href="README.ar.md">🇾🇪 العربية</a>
 
   <br/><br/>
-  <img src="assets/hero.svg" alt="Ali Al-Omary, Junior Laravel and Full-Stack Web Developer" width="100%" />
+
+  <img src="assets/hero.svg" alt="Ali Al-Omary | Full-Stack Developer, Flutter and Laravel" width="100%" />
 
   <p>
-    <a href="mailto:ali.q.alomary@gmail.com">Email</a> ·
-    <a href="https://linkedin.com/in/ali-al-omary">LinkedIn</a> ·
-    <a href="https://alomary-ali.site.je">Portfolio</a> ·
+    <a href="mailto:ali.q.alomary@gmail.com">✉ Email</a> &nbsp;·&nbsp;
+    <a href="https://linkedin.com/in/ali-al-omary-29a474414">LinkedIn</a> &nbsp;·&nbsp;
+    <a href="https://alomary-ali.site.je">Portfolio</a> &nbsp;·&nbsp;
     <a href="https://github.com/Alomary-Ali">GitHub</a>
   </p>
+
+  <p><sub>SA'NA'A, YEMEN &nbsp; / &nbsp; BUILDING FOR THE WEB AND MOBILE</sub></p>
 </div>
 
 ---
 
-## About
+## The Developer
 
-I'm a **Junior Laravel Developer | Full-Stack Web Developer** based in Sana'a, Yemen. I focus on building practical web and mobile solutions, with an emphasis on maintainable backend systems, clear application structure, and reliable user experiences.
+I'm a **Full-Stack Developer** working across **Flutter, Laravel, frontend, and backend development**. I enjoy turning product ideas into practical digital experiences, from mobile interfaces and web frontends to APIs, application logic, and relational data.
 
-- **Backend:** PHP, Laravel, REST APIs, authentication and authorization
-- **Mobile:** Flutter and Dart
-- **Frontend:** Vue.js, TypeScript, JavaScript
-- **Data:** MySQL and relational database design
-- **Practices:** Feature-oriented organization, clean code, testing, and maintainability
+My focus is on building software that is understandable, maintainable, and useful beyond the first release.
 
-## Selected Projects
-
-### [NAHJ | نهج](https://github.com/Alomary-Ali/nahj)
-A knowledge and discovery platform concept combining a centrally managed learning academy with discovery of external learning resources and opportunities. Discovery entries link to their original sources rather than republishing them.
-
-### [Awesome Generative AI Guide](https://github.com/Alomary-Ali/awesome-generative-ai-guide)
-A curated guide to generative AI resources, tools, and learning materials.
-
-### BNAYTIC
-A Flutter application integrated with a Laravel backend. The source repositories are access-restricted, so implementation details are intentionally not published here.
-
-## Technology
+## Engineering Focus
 
 <div align="center">
-  <img src="assets/tech-stack.svg" alt="Technology areas" width="100%" />
+  <img src="assets/tech-stack.svg" alt="Technology map: Flutter and Dart, Laravel and PHP, Vue.js, JavaScript, TypeScript, MySQL, Git and API tooling" width="100%" />
 </div>
+
+| Area | Technologies |
+|:--|:--|
+| **Mobile** | Flutter · Dart |
+| **Backend** | Laravel · PHP · REST APIs |
+| **Frontend** | Vue.js · JavaScript · TypeScript |
+| **Database** | MySQL · Relational data modeling |
+| **Workflow** | Git · API integration · Testing · Maintainable code |
+
+## Selected Work
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Alomary-Ali/nahj">NAHJ · نهج</a></h3>
+      <p>A knowledge and discovery platform connecting a centrally managed learning academy with external resources and opportunities. Discovery links people to original sources.</p>
+      <sub>PRODUCT CONCEPT · KNOWLEDGE · DISCOVERY</sub>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/Alomary-Ali/awesome-generative-ai-guide">Awesome Generative AI Guide</a></h3>
+      <p>A curated collection of generative AI resources, tools, and learning material, organized to make exploration easier.</p>
+      <sub>OPEN SOURCE · GENERATIVE AI · CURATION</sub>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="2" valign="top">
+      <h3>BNAYTIC</h3>
+      <p>A Flutter mobile application integrated with a Laravel backend. Its source repositories are access-restricted, so private implementation details are intentionally kept private.</p>
+      <sub>FLUTTER · LARAVEL · MOBILE + API</sub>
+    </td>
+  </tr>
+</table>
 
 ## GitHub Activity
 
 <div align="center">
-  <img src="https://github-readme-stats-fast.vercel.app/api?username=Alomary-Ali&show_icons=true&include_all_commits=true&theme=transparent" alt="GitHub statistics" width="49%" />
-  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Alomary-Ali&layout=compact&theme=transparent" alt="Most used languages" width="41%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api?username=Alomary-Ali&show_icons=true&include_all_commits=true&hide_border=true&bg_color=0B1411&title_color=D9C18F&text_color=C5D5CB&icon_color=57D6AE" alt="GitHub statistics" width="49%" />
+  <img src="https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Alomary-Ali&layout=compact&hide_border=true&bg_color=0B1411&title_color=D9C18F&text_color=C5D5CB" alt="Most used languages" width="41%" />
   <br/><br/>
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Alomary-Ali&theme=transparent" alt="Contribution streak" width="90%" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=Alomary-Ali&hide_border=true&background=0B1411&ring=57D6AE&fire=D9C18F&currStreakLabel=D9C18F&sideLabels=C5D5CB&dates=82968A" alt="Contribution streak" width="90%" />
 </div>
 
-*Statistics are provided by third-party services and may differ from GitHub's own activity views.*
+<sub>Activity cards are generated by third-party services and may occasionally be unavailable or differ from GitHub's native activity view.</sub>
 
-## Education
+## Background
 
 **Bachelor of Information Technology**  
 Al-Rasheed Smart University · 2022–2026
 
-## Contact
+## Let's Connect
 
-- Email: [ali.q.alomary@gmail.com](mailto:ali.q.alomary@gmail.com)
-- LinkedIn: [linkedin.com/in/ali-al-omary](https://linkedin.com/in/ali-al-omary)
-- Portfolio: [alomary-ali.site.je](https://alomary-ali.site.je)
-- Location: Sana'a, Yemen · Open to remote collaboration
+- **Email:** [ali.q.alomary@gmail.com](mailto:ali.q.alomary@gmail.com)
+- **LinkedIn:** [linkedin.com/in/ali-al-omary-29a474414](https://linkedin.com/in/ali-al-omary-29a474414)
+- **Portfolio:** [alomary-ali.site.je](https://alomary-ali.site.je)
+- **Location:** Sana'a, Yemen · Open to remote collaboration
 
 ---
 
 <div align="center">
-  <sub>Building useful software, one thoughtful iteration at a time.</sub>
+  <sub>DESIGN WITH CLARITY. ENGINEER WITH INTENT. SHIP WITH CARE.</sub>
 </div>
