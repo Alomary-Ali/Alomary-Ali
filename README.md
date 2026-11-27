@@ -16,21 +16,21 @@
 
 ## About
 
-I'm a **Full-Stack Developer** working with **Flutter and Laravel** across mobile, frontend, and backend development. I build applications, develop user interfaces and backend services, and connect them through APIs and databases.
+I'm a **Full-Stack Developer** working with **Flutter and Laravel** across mobile, frontend, and backend development. I build application features end to end, from user interfaces and API integration to backend logic and data storage.
 
-My focus is on writing maintainable code and building practical features that solve real problems.
+I care about maintainable code, reliable application behavior, and practical solutions to real product needs.
 
-## Technologies I Use
+## Technologies & Engineering
 
 <div align="center">
-  <img src="assets/tech-stack.svg" alt="Technologies I use: Flutter, Dart, Laravel, PHP, Vue.js, JavaScript, TypeScript, MySQL and Git" width="100%" />
+  <img src="assets/tech-stack.svg" alt="My development toolkit: Flutter and Dart, Laravel and PHP, Vue.js, JavaScript and TypeScript, MySQL, relational database design, migrations, Git and automated testing" width="100%" />
 </div>
 
-- **Mobile:** Flutter, Dart
-- **Backend:** Laravel, PHP, REST APIs
-- **Frontend:** Vue.js, JavaScript, TypeScript
-- **Database:** MySQL
-- **Tools:** Git
+- **Mobile Development:** Flutter, Dart, application state, API and network integration
+- **Backend Development:** Laravel, PHP, REST API development, authentication, validation, authorization, and error handling
+- **Frontend Development:** Vue.js, JavaScript, TypeScript, component-based interfaces
+- **Database Engineering:** MySQL, relational data modeling, schema migrations, constraints, and indexes
+- **Quality & Workflow:** Flutter testing, PHPUnit, static analysis, Git
 
 ## Projects
 
@@ -40,7 +40,7 @@ I'm building **NAHJ**, a knowledge and discovery platform with a centrally manag
 
 ### [Awesome Generative AI Guide](https://github.com/Alomary-Ali/awesome-generative-ai-guide)
 
-I put together this guide to make useful generative AI tools, resources, and learning material easier to find and explore.
+I created this guide to bring useful generative AI tools, resources, and learning material together in one place, making them easier to explore.
 
 ### BNAYTIC
 
